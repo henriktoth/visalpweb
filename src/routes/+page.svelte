@@ -1,1 +1,1 @@
-<p>This is the demo of the main page</p>
+<p>Main page</p>

@@ -1,8 +1,19 @@
 {
 	"nav": {
-		"home": "HOME",
-		"apps": "APPS",
-		"blog": "BLOG",
-		"contact": "CONTACT"
+		"home": "Home",
+		"apps": "Apps",
+		"blog": "Blog",
+		"contact": "Contact"
+	},
+	"main": {
+		"msg": "BE PRODUCTIVE!",
+		"submsg": "Get the VISALP apps and live consciously and productively every day.",
+		"download_btn": "Download Apps"
+	},
+	"footer": {
+		"copyright_text": "All rights reserved.",
+		"platforms": "Platforms",
+		"navigation": "Navigation",
+		"important_links": "Important information"
 	}
 }

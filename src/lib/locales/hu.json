@@ -1,8 +1,19 @@
 {
 	"nav": {
-		"home": "FŐOLDAL",
-		"apps": "APPOK",
-		"blog": "BLOG",
-		"contact": "KAPCSOLAT"
+		"home": "Főoldal",
+		"apps": "Appok",
+		"blog": "Blog",
+		"contact": "Kapcsolat"
+	},
+	"main": {
+		"msg": "LÉGY PRODUKTÍV!",
+		"submsg": "Szerezd meg a VISALP appokat és élj tudatosan és produktívan minden nap.",
+		"download_btn": "Appok letöltése"
+	},
+	"footer": {
+		"copyright_text": "Minden jog fenntartva.",
+		"platforms": "Platformok",
+		"navigation": "Navigáció",
+		"important_links": "Fontos információk"
 	}
 }

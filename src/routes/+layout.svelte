@@ -4,7 +4,7 @@
 	import logo from '$lib/assets/logo.svg';
 	import Switch from '$lib/components/util/Switch.svelte';
 	import { slide, blur } from 'svelte/transition';
-	import { _, locale, isLoading } from 'svelte-i18n'; // Add isLoading
+	import { _, locale, isLoading } from 'svelte-i18n';
 	import '../lib/i18n';
 	let { children } = $props();
 
@@ -28,15 +28,14 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<!-- Wait for translations to load -->
 {#if $isLoading}
 	<p>Loading translations...</p>
 {:else}
-<header>
+<header class="fixed top-0">
 	<nav
-		class="mx-10 mt-5 flex items-center justify-between rounded-full bg-white px-10 py-4"
-		style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
-	>
+	class="fixed z-50 inset-x-5 top-5 flex items-center justify-between rounded-full bg-white px-15 py-4"
+	style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
+>
 		<img src={logo} alt="Logo" class="w-24" />
 		{#if viewportWidth >= 900}
 			<ul class="flex gap-15">
@@ -60,7 +59,7 @@
 			{#if languageMenuOpen}
 				<div
 					transition:blur={{ duration: 200 }}
-					class="absolute top-23 right-34 flex flex-col gap-4 rounded-4xl bg-white px-5 py-5"
+					class="absolute top-20 right-29 flex flex-col gap-4 rounded-4xl bg-white px-5 py-5"
 					style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 				>
 					<button
@@ -95,9 +94,9 @@
 	</nav>
 	{#if mobileMenuOpen && viewportWidth < 900}
 		<nav
-			transition:slide
-			class="mx-10 mt-2 mb-5 flex-col items-center justify-between rounded-4xl bg-white px-10 py-4"
-			style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
+		transition:slide
+		class="fixed z-40 inset-x-5 top-23 flex-col items-center justify-between rounded-4xl bg-white px-15 py-4"
+		style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 		>
 			<ul class="flex flex-col gap-4">
 				<li>
@@ -143,15 +142,41 @@
 	{/if}
 </header>
 
-<div class="my-5">
-	<p>viewport width: {viewportWidth} px</p>
-	<p>mobile menu open: {mobileMenuOpen}</p>
-	<p>language menu open: {languageMenuOpen}</p>
-	<p>current language: {$locale}</p>
-	<p>dark mode: {darkMode ? 'on' : 'off'}</p>
-</div>
-
 {@render children()}
+
+<footer class="bg-neutral-700 text-white px-10 ">
+	<div class="flex flex-col [@media(min-width:925px)]:flex-row items-center justify-around py-7 gap-0 [@media(min-width:925px)]:gap-15 ">
+		<div class="flex flex-col font-extralight items-center gap-4 p-3 pb-15 [@media(min-width:925px)]:pb-0">
+			<img src={logo} alt="Logo" class="w-50" style="filter: brightness(0) invert(1);" />
+			<p>Email: visalpentertainment@gmail.com</p>
+		</div>
+		<div class="flex flex-col gap-10 [@media(min-width:650px)]:flex-row [@media(min-width:650px)]:gap-25">
+			<div class="flex flex-col gap-2">
+				<p class="font-bold">{$_('footer.platforms')}:</p>
+				<a href="">YouTube</a>
+				<a href="">TikTok</a>
+				<a href="">AppStore</a>
+				<a href="">Google Play</a>
+			</div>
+			<div class="flex flex-col gap-2">
+				<p class="font-bold">{$_('footer.navigation')}:</p>
+				<a href="">{$_('nav.home')}</a>
+				<a href="">{$_('nav.apps')}</a>
+				<a href="">{$_('nav.blog')}</a>
+				<a href="">{$_('nav.contact')}</a>
+			</div>
+			<div class="flex flex-col gap-2">
+				<p class="font-bold">{$_('footer.important_links')}:</p>
+				<a href="">Link 1</a>
+				<a href="">Link 2</a>
+			</div>
+		</div>
+	</div>
+	<div class="flex flex-col items-center py-5">
+		<hr class="my-3 w-100 border-neutral-500" />
+		<p class="text-center">© {new Date().getFullYear()} VISALP. {$_('footer.copyright_text')}</p>
+	</div>
+</footer>
 {/if}
 
 <style>

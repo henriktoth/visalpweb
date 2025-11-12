@@ -60,6 +60,10 @@ body {
 		'Segoe UI Symbol';
 }
 
+.nunito-black {
+	font-family: 'Nunito-black', sans-serif;
+}
+
 .navhover {
 	@apply rounded-full px-3 py-2 hover:bg-gray-100;
 }

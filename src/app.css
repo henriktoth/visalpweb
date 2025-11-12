@@ -61,5 +61,5 @@ body {
 }
 
 .navhover {
-	@apply rounded-full px-3 py-2 hover:bg-gray-100
+	@apply rounded-full px-3 py-2 hover:bg-gray-100;
 }

@@ -72,6 +72,9 @@
 {/if}
 
 <style>
+	:hover {
+		cursor: pointer;
+	}
 
 	:root {
 		--accent-color: #000;

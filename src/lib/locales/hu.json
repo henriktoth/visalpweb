@@ -6,9 +6,27 @@
 		"contact": "Kapcsolat"
 	},
 	"main": {
-		"msg": "LÉGY PRODUKTÍV!",
+		"msg": "LÉGY ",
 		"submsg": "Szerezd meg a VISALP appokat és élj tudatosan és produktívan minden nap.",
 		"download_btn": "Appok letöltése"
+	},
+	"products": {
+		"title": "VISALP TERMÉKEK",
+		"prod1": {
+			"title": "FileOrganizer",
+			"description": "Rendezd mappába a fájljaidat a kiterjesztésük alapján!"
+		},
+		"prod2": {
+			"title": "DELcam",
+			"description": "Készíts fotót egy elkülönített galériába, majd állíts be időzített törlést!"
+		},
+		"prod3": {
+			"title": "SoulGarden",
+			"description": "Rögzítsd a napi hangulatod és tekintsd meg a belőle alakuló “hangulatkertet"
+		},
+		"coming_soon": "Hamarosan...",
+		"try_now": "Próbáld ki!",
+		"more_apps": "További appok"
 	},
 	"footer": {
 		"copyright_text": "Minden jog fenntartva.",

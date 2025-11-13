@@ -6,9 +6,27 @@
 		"contact": "Contact"
 	},
 	"main": {
-		"msg": "BE PRODUCTIVE!",
+		"msg": "BE ",
 		"submsg": "Get the VISALP apps and live consciously and productively every day.",
 		"download_btn": "Download Apps"
+	},
+	"products": {
+		"title": "VISALP PRODUCTS",
+		"prod1": {
+			"title": "FileOrganizer",
+			"description": "Organize your files into folders based on their extensions!"
+		},
+		"prod2": {
+			"title": "DELcam",
+			"description": "Take a photo in a separate gallery and set a timer for deletion!"
+		},
+		"prod3": {
+			"title": "SoulGarden",
+			"description": "Record your daily mood and view the resulting “mood garden"
+		},
+		"coming_soon": "Coming Soon",
+		"try_now": "Try Now",
+		"more_apps": "More Apps"
 	},
 	"footer": {
 		"copyright_text": "All rights reserved.",

@@ -1,11 +1,11 @@
 <script>
 	import { _, locale } from 'svelte-i18n';
 	import logo_textonly from '../../../assets/logo_textonly.svg';
-
+    import { fade } from 'svelte/transition';
 	let { icon, title, description } = $props();
 </script>
 
-<div class=" flex w-[280px] flex-col gap-5">
+<div in:fade={{duration: 500}} class=" flex w-[280px] flex-col gap-5">
 	<div class="flex items-center">
 		<div class="w-10 rounded-4xl p-10 {icon}"></div>
 		<div class="mx-5 flex flex-col items-end">

@@ -28,6 +28,23 @@
 		"try_now": "Try Now",
 		"more_apps": "More Apps"
 	},
+	"goals": {
+		"title": "What is our goal?",
+		"subtitle": "To make each day effective",
+		"description": "We want to create products that make people's lives easier, increase productivity and awareness.",
+		"goal1": {
+			"title": "Simplicity",
+			"description": "VISALP products aim to simplify and make more convenient the monotonous, repetitive tasks."
+		},
+		"goal2": {
+			"title": "Mindfulness",
+			"description": "We enable you to track the development of your mental and emotional health so you can recognize the patterns within."
+		},
+		"goal3": {
+			"title": "Productivity",
+			"description": "We give you the opportunity to regain and maintain your productivity and motivation."
+		}
+	},
 	"footer": {
 		"copyright_text": "All rights reserved.",
 		"platforms": "Platforms",

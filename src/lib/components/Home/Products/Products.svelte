@@ -31,6 +31,3 @@
 		{$_('products.more_apps')}
 	</button>
 </div>
-
-<style>
-</style>

@@ -28,6 +28,23 @@
 		"try_now": "Próbáld ki!",
 		"more_apps": "További appok"
 	},
+	"goals": {
+		"title": "Mi a célunk?",
+		"subtitle": "Hatékonnyá tenni a mindennapokat.",
+		"description": "Szeretnénk olyan termékeket létrehozni amelyek egyszerűbbé teszik az emberek életét, növelik a produktivitást és a tudatosságot.",
+		"goal1": {
+			"title": "Egyszerűség",
+			"description": "A VISALP termékek célja, hogy egyszerűbbé és kényelmesebbé tegyék a monoton, ismétlődő feladatokat."
+		},
+		"goal2": {
+			"title": "Tudatosság",
+			"description": "Lehetővé tesszük számodra, hogy nyomon kövesd mentális és érzelmi egészséged fejlődését, így felismerheted a benne rejlő mintákat."
+		},
+		"goal3": {
+			"title": "Produktivitás",
+			"description": "Lehetővé tesszük számodra, hogy visszanyerd és fenntartsd a produktivitásodat és motivációdat."
+		}
+	},
 	"footer": {
 		"copyright_text": "Minden jog fenntartva.",
 		"platforms": "Platformok",

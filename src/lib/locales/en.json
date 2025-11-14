@@ -5,45 +5,84 @@
 		"blog": "Blog",
 		"contact": "Contact"
 	},
-	"main": {
-		"msg": "BE ",
-		"submsg": "Get the VISALP apps and live consciously and productively every day.",
-		"download_btn": "Download Apps"
-	},
-	"products": {
-		"title": "VISALP PRODUCTS",
-		"prod1": {
-			"title": "FileOrganizer",
-			"description": "Organize your files into folders based on their extensions!"
+	"main_page": {
+		"main": {
+			"msg": "BE ",
+			"submsg": "Get the VISALP apps and live consciously and productively every day.",
+			"download_btn": "Download Apps"
 		},
-		"prod2": {
-			"title": "DELcam",
-			"description": "Take a photo in a separate gallery and set a timer for deletion!"
+		"products": {
+			"title": "VISALP PRODUCTS",
+			"prod1": {
+				"title": "FileOrganizer",
+				"description": "Organize your files into folders based on their extensions!"
+			},
+			"prod2": {
+				"title": "DELcam",
+				"description": "Take a photo in a separate gallery and set a timer for deletion!"
+			},
+			"prod3": {
+				"title": "SoulGarden",
+				"description": "Record your daily mood and view the resulting “mood garden"
+			},
+			"coming_soon": "Coming Soon",
+			"try_now": "Try Now",
+			"more_apps": "More Apps"
 		},
-		"prod3": {
-			"title": "SoulGarden",
-			"description": "Record your daily mood and view the resulting “mood garden"
+		"goals": {
+			"title": "What is our goal?",
+			"subtitle": "To make each day effective",
+			"description": "We want to create products that make people's lives easier, increase productivity and awareness.",
+			"goal1": {
+				"title": "Simplicity",
+				"description": "VISALP products aim to simplify and make more convenient the monotonous, repetitive tasks."
+			},
+			"goal2": {
+				"title": "Mindfulness",
+				"description": "We enable you to track the development of your mental and emotional health so you can recognize the patterns within."
+			},
+			"goal3": {
+				"title": "Productivity",
+				"description": "We give you the opportunity to regain and maintain your productivity and motivation."
+			}
 		},
-		"coming_soon": "Coming Soon",
-		"try_now": "Try Now",
-		"more_apps": "More Apps"
-	},
-	"goals": {
-		"title": "What is our goal?",
-		"subtitle": "To make each day effective",
-		"description": "We want to create products that make people's lives easier, increase productivity and awareness.",
-		"goal1": {
-			"title": "Simplicity",
-			"description": "VISALP products aim to simplify and make more convenient the monotonous, repetitive tasks."
-		},
-		"goal2": {
-			"title": "Mindfulness",
-			"description": "We enable you to track the development of your mental and emotional health so you can recognize the patterns within."
-		},
-		"goal3": {
-			"title": "Productivity",
-			"description": "We give you the opportunity to regain and maintain your productivity and motivation."
+		"blogs": {
+			"blog1": {
+				"title": "Blog 1",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			"blog2": {
+				"title": "Blog 2",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			"blog3": {
+				"title": "Blog 3",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			"blog4": {
+				"title": "Blog 4",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			"read_more": "Read More"
 		}
+	},
+	"apps_page": {
+		"title": "We don't have any apps yet.",
+		"subtitle": "Come back later. We're working on it!"
+	},
+	"blog_page": {
+		"title": "We don't have any blogposts yet.",
+		"subtitle": "Come back later. We're working on it!"
+	},
+	"contact_page": {
+		"title": "Contact Us",
+		"subtitle": "Write us a message and we will try to respond as soon as possible.",
+		"name": "Name",
+		"subject": "Subject",
+		"message": "Message",
+		"message_placeholder": "Write your message here...",
+		"send_btn": "Send",
+		"delete_btn": "Delete"
 	},
 	"footer": {
 		"copyright_text": "All rights reserved.",

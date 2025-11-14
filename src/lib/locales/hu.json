@@ -5,45 +5,84 @@
 		"blog": "Blog",
 		"contact": "Kapcsolat"
 	},
-	"main": {
-		"msg": "LÉGY ",
-		"submsg": "Szerezd meg a VISALP appokat és élj tudatosan és produktívan minden nap.",
-		"download_btn": "Appok letöltése"
-	},
-	"products": {
-		"title": "VISALP TERMÉKEK",
-		"prod1": {
-			"title": "FileOrganizer",
-			"description": "Rendezd mappába a fájljaidat a kiterjesztésük alapján!"
+	"main_page": {
+		"main": {
+			"msg": "LÉGY ",
+			"submsg": "Szerezd meg a VISALP appokat és élj tudatosan és produktívan minden nap.",
+			"download_btn": "Appok letöltése"
 		},
-		"prod2": {
-			"title": "DELcam",
-			"description": "Készíts fotót egy elkülönített galériába, majd állíts be időzített törlést!"
+		"products": {
+			"title": "VISALP TERMÉKEK",
+			"prod1": {
+				"title": "FileOrganizer",
+				"description": "Rendezd mappába a fájljaidat a kiterjesztésük alapján!"
+			},
+			"prod2": {
+				"title": "DELcam",
+				"description": "Készíts fotót egy elkülönített galériába, majd állíts be időzített törlést!"
+			},
+			"prod3": {
+				"title": "SoulGarden",
+				"description": "Rögzítsd a napi hangulatod és tekintsd meg a belőle alakuló “hangulatkertet"
+			},
+			"coming_soon": "Hamarosan...",
+			"try_now": "Próbáld ki!",
+			"more_apps": "További appok"
 		},
-		"prod3": {
-			"title": "SoulGarden",
-			"description": "Rögzítsd a napi hangulatod és tekintsd meg a belőle alakuló “hangulatkertet"
+		"goals": {
+			"title": "Mi a célunk?",
+			"subtitle": "Hatékonnyá tenni a mindennapokat.",
+			"description": "Szeretnénk olyan termékeket létrehozni amelyek egyszerűbbé teszik az emberek életét, növelik a produktivitást és a tudatosságot.",
+			"goal1": {
+				"title": "Egyszerűség",
+				"description": "A VISALP termékek célja, hogy egyszerűbbé és kényelmesebbé tegyék a monoton, ismétlődő feladatokat."
+			},
+			"goal2": {
+				"title": "Tudatosság",
+				"description": "Lehetővé tesszük számodra, hogy nyomon kövesd mentális és érzelmi egészséged fejlődését, így felismerheted a benne rejlő mintákat."
+			},
+			"goal3": {
+				"title": "Produktivitás",
+				"description": "Lehetővé tesszük számodra, hogy visszanyerd és fenntartsd a produktivitásodat és motivációdat."
+			}
 		},
-		"coming_soon": "Hamarosan...",
-		"try_now": "Próbáld ki!",
-		"more_apps": "További appok"
-	},
-	"goals": {
-		"title": "Mi a célunk?",
-		"subtitle": "Hatékonnyá tenni a mindennapokat.",
-		"description": "Szeretnénk olyan termékeket létrehozni amelyek egyszerűbbé teszik az emberek életét, növelik a produktivitást és a tudatosságot.",
-		"goal1": {
-			"title": "Egyszerűség",
-			"description": "A VISALP termékek célja, hogy egyszerűbbé és kényelmesebbé tegyék a monoton, ismétlődő feladatokat."
-		},
-		"goal2": {
-			"title": "Tudatosság",
-			"description": "Lehetővé tesszük számodra, hogy nyomon kövesd mentális és érzelmi egészséged fejlődését, így felismerheted a benne rejlő mintákat."
-		},
-		"goal3": {
-			"title": "Produktivitás",
-			"description": "Lehetővé tesszük számodra, hogy visszanyerd és fenntartsd a produktivitásodat és motivációdat."
+		"blogs": {
+			"blog1": {
+				"title": "Blog 1",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			"blog2": {
+				"title": "Blog 2",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			"blog3": {
+				"title": "Blog 3",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			"blog4": {
+				"title": "Blog 4",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			"read_more": "Read More"
 		}
+	},
+	"apps_page": {
+		"title": "Még nincsenek applikációink.",
+		"subtitle": "Gyere vissza később. Dolgozunk rajta!"
+	},
+	"blog_page": {
+		"title": "Még nincsenek blogbejegyzéseink.",
+		"subtitle": "Gyere vissza később. Dolgozunk rajta!"
+	},
+	"contact_page": {
+		"title": "Lépj velünk kapcsolatba",
+		"subtitle": "Írj nekünk üzenetet, mi pedig megpróbálunk minél hamarabb válaszolni.",
+		"name": "Név",
+		"subject": "Tárgy",
+		"message": "Üzenet",
+		"message_placeholder": "Ide írd az üzeneted...",
+		"send_btn": "Küldés",
+		"delete_btn": "Törlés"
 	},
 	"footer": {
 		"copyright_text": "Minden jog fenntartva.",

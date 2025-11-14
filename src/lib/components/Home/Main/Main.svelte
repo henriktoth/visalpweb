@@ -3,11 +3,11 @@
 	import { blur, fly } from 'svelte/transition';
 	import { TypeWriter } from 'svelte-typewrite';
 	import { animateTyping } from '../../../actions/actions.js';
-	import phone from '../../../assets/phone.png';
+	import mainArt from '../../../assets/main.png';
 </script>
 
 <main
-	class="z-0 mx-4 mt-30 mb-10 flex min-h-[500px] flex-row items-center justify-center [@media(min-width:960px)]:mx-10 [@media(min-width:960px)]:justify-around"
+	class="z-0 mx-4 mt-30 flex min-h-[500px] flex-row items-center justify-center [@media(min-width:960px)]:mx-10 [@media(min-width:960px)]:justify-around"
 >
 	<div class="" in:fly={{ x: -200, duration: 1000 }}>
 		<div class="flex flex-col gap-5 text-center [@media(min-width:960px)]:text-left">
@@ -15,7 +15,7 @@
 				<h1
 					class="nunito-black text-[35px] leading-tight [@media(min-width:450px)]:text-[45px] [@media(min-width:640px)]:text-[60px]"
 				>
-					{$_('main.msg')}&nbsp;<span
+					{$_('main_page.main.msg')}&nbsp;<span
 						class="inline-block"
 						use:animateTyping={['PRODUCTIVE.', 'EFFECTIVE.', 'MINDFUL.']}
 					></span>
@@ -24,13 +24,13 @@
 				<h1
 					class="nunito-black text-[35px] leading-tight [@media(min-width:450px)]:text-[45px] [@media(min-width:640px)]:text-[60px]"
 				>
-					{$_('main.msg')} <span use:animateTyping={['PRODUKTÍV!', 'HATÉKONY!', 'TUDATOS!']}></span>
+					{$_('main_page.main.msg')} <span use:animateTyping={['PRODUKTÍV!', 'HATÉKONY!', 'TUDATOS!']}></span>
 				</h1>
 			{/if}
 			<p
 				class="[@media(min-width:450px)]:text-md max-w-150 text-sm [@media(min-width:640px)]:text-xl"
 			>
-				{$_('main.submsg')}
+				{$_('main_page.main.submsg')}
 			</p>
 		</div>
 		<div
@@ -40,7 +40,7 @@
 				class="w-full rounded-full bg-white px-6 py-4 text-base font-bold hover:translate-y-1 hover:cursor-pointer hover:transition-transform [@media(min-width:400px)]:w-auto [@media(min-width:400px)]:px-12 [@media(min-width:640px)]:px-20 [@media(min-width:640px)]:text-lg"
 				style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 			>
-				{$_('main.download_btn')}
+				{$_('main_page.main.download_btn')}
 			</button>
 			<button
 				class="mx-auto rounded-full bg-white p-4 hover:translate-y-1 hover:cursor-pointer hover:transition-transform [@media(min-width:400px)]:mx-0"
@@ -57,9 +57,9 @@
 	</div>
 	<div class="hidden [@media(min-width:960px)]:block">
 		<img
-			src={phone}
-			alt="Iphone showcasing decrease in screen time"
-			class="w-80"
+			src={mainArt}
+			alt="Alpaca sitting in a meditating position"
+			class="w-130"
 			in:fly={{ x: 200, duration: 1000 }}
 		/>
 	</div>

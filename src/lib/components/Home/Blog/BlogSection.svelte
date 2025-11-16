@@ -53,8 +53,8 @@
     style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 >   
     <div class="text-center">
-        <h2 class="nunito-extralight mt-10 text-3xl">BLOG</h2>
-        <p>Olvass a VISALP-ról és a hozzá kapcsolódó témákról</p>
+        <h2 class="nunito-extralight mt-10 text-3xl">{$_('main_page.blogs.title')}</h2>
+        <p>{$_('main_page.blogs.subtitle')}</p>
     </div>
 
     {#if hasBlogs}

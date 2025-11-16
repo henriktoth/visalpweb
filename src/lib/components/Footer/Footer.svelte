@@ -41,12 +41,7 @@
 					<a href="/blog" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.blog')}</a>
 					<a href="/contact" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.contact')}</a>
 				</div>
-				<div class="flex flex-col gap-2 text-center [@media(min-width:650px)]:text-left">
-					<p class="text-sm font-bold [@media(min-width:640px)]:text-base">
-						{$_('footer.important_links')}:
-					</p>
-					<p class="text-neutral-500">//TODO</p>
-				</div>
+
 			</div>
 		</div>
 		<div class="flex flex-col items-center py-5">

@@ -56,12 +56,12 @@
 						</g>
 					</svg>
 				</button>
-				<Switch bind:value={darkMode} design="slider" />
+				<!-- <Switch bind:value={darkMode} design="slider" /> -->
 			</div>
 			{#if languageMenuOpen}
 				<div
 					transition:blur={{ duration: 200 }}
-					class="absolute top-23 right-27 flex flex-col gap-4 rounded-4xl bg-white px-5 py-5"
+					class="absolute top-23 right-9 flex flex-col gap-4 rounded-4xl bg-white px-5 py-5"
 					style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 				>
 					<button
@@ -164,7 +164,7 @@
 			</ul>
 			<hr class="my-4 border-gray-300" />
 			<div class="flex flex-row-reverse gap-4 px-3">
-				<Switch bind:value={darkMode} design="slider" />
+				<!--<Switch bind:value={darkMode} design="slider" /> -->
 				<button
 					class="text-sm hover:cursor-pointer [@media(min-width:640px)]:text-base"
 					class:activeLanguage={$locale === 'hu'}

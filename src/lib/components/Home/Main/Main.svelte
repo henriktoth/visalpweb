@@ -32,7 +32,7 @@
 			</p>
 		</div>
 		<div
-			class="mt-10 flex flex-col justify-center gap-3 [@media(min-width:400px)]:flex-row [@media(min-width:450px)]:gap-7 [@media(min-width:960px)]:justify-start"
+			class="mt-10 flex flex-col justify-center items-center gap-3 [@media(min-width:400px)]:flex-row [@media(min-width:450px)]:gap-7 [@media(min-width:960px)]:justify-start"
 		><a href="/apps">
 			<button
 				class="w-full rounded-full bg-white px-6 py-4 text-base font-bold hover:translate-y-1 hover:cursor-pointer hover:transition-transform [@media(min-width:400px)]:w-auto [@media(min-width:400px)]:px-12 [@media(min-width:640px)]:px-20 [@media(min-width:640px)]:text-lg"

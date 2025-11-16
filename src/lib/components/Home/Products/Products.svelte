@@ -1,6 +1,9 @@
 <script>
 	import { _, locale } from 'svelte-i18n';
 	import ProductCard from './ProductCard.svelte';
+	import delcam from '../../../assets/delcam_logo.svg';
+	import fileorganizer from '../../../assets/fileorganizer_logo.svg';
+	import soulgarden from '../../../assets/soulgarden_logo.svg';
 </script>
 
 <section
@@ -10,17 +13,17 @@
 	<h2 class="nunito-extralight mt-10 text-3xl">{$_('main_page.products.title')}</h2>
 	<div class="flex flex-col justify-center gap-20 [@media(min-width:1040px)]:flex-row">
 		<ProductCard
-			icon="bg-yellow-100"
+			icon={fileorganizer}
 			title={$_('main_page.products.prod1.title')}
 			description={$_('main_page.products.prod1.description')}
 		/>
 		<ProductCard
-			icon="bg-blue-100"
+			icon={delcam}
 			title={$_('main_page.products.prod2.title')}
 			description={$_('main_page.products.prod2.description')}
 		/>
 		<ProductCard
-			icon="bg-green-100"
+			icon={soulgarden}
 			title={$_('main_page.products.prod3.title')}
 			description={$_('main_page.products.prod3.description')}
 		/>

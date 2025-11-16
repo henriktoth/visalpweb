@@ -1,8 +1,8 @@
 <script>
 	import GoalsCard from './GoalsCard.svelte';
-	import emoji1 from '../../../assets/emoji1.png';
-	import emoji2 from '../../../assets/emoji2.png';
-	import emoji3 from '../../../assets/emoji3.png';
+	import goals_icon1 from '../../../assets/goal_logo_1.svg';
+	import goals_icon2 from '../../../assets/goal_logo_2.svg';
+	import goals_icon3 from '../../../assets/goal_logo_3.svg';
 	import { _, locale } from 'svelte-i18n';
 </script>
 
@@ -17,17 +17,17 @@
 	<!-- stacked on small screens, single-row (no wrap) on md+ -->
 	<div class="mt-6 flex flex-col gap-15 md:flex-row md:justify-center items-center md:items-stretch">
 			<GoalsCard
-                icon={emoji3}
+                icon={goals_icon1}
 				title={$_('main_page.goals.goal1.title')}
 				description={$_('main_page.goals.goal1.description')}
 			/>
 			<GoalsCard
-                icon={emoji3}
+                icon={goals_icon2}
 				title={$_('main_page.goals.goal2.title')}
 				description={$_('main_page.goals.goal2.description')}
 			/>
 			<GoalsCard
-				icon={emoji3}
+				icon={goals_icon3}
 				title={$_('main_page.goals.goal3.title')}
 				description={$_('main_page.goals.goal3.description')}
 			/>

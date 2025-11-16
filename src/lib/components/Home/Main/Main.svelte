@@ -1,7 +1,6 @@
 <script>
 	import { _, locale } from 'svelte-i18n';
 	import { blur, fly } from 'svelte/transition';
-	import { TypeWriter } from 'svelte-typewrite';
 	import { animateTyping } from '../../../actions/actions.js';
 	import mainArt from '../../../assets/main.png';
 </script>

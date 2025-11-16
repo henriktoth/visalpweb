@@ -47,6 +47,7 @@
 			}
 		},
 		"blogs": {
+			"no_blog_msg": "We don't have any blogposts yet.",
 			"title": "BLOG",
 			"subtitle": "Read about VISALP and other related topics.",
 			"blog1": {
@@ -66,6 +67,11 @@
 				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			},
 			"read_more": "Read More"
+		},
+		"contact": {
+			"title": "Do you have questions?",
+			"subtitle": "Feel free to reach out, we are here to help you.",
+			"contact_btn": "Contact"
 		}
 	},
 	"apps_page": {

@@ -5,7 +5,6 @@
 	import { animateTyping } from '../../../actions/actions.js';
 	import mainArt from '../../../assets/main.png';
 </script>
-
 <section
 	class="z-0 mx-4 mt-30 flex min-h-[500px] flex-row items-center justify-center [@media(min-width:960px)]:mx-10 [@media(min-width:960px)]:justify-around"
 >

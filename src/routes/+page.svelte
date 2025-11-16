@@ -1,13 +1,15 @@
 <script>
 	import Main from '../lib/components/Home/Main/Main.svelte';
-	import Products from '../lib/components/Home/Products/Products.svelte';
-	import Goals from '../lib/components/Home/Goals/Goals.svelte';
-	import Blogs from '../lib/components/Home/Blog/Blogs.svelte';
+	import ProductSection from '../lib/components/Home/Products/ProductSection.svelte';
+	import GoalSection from '../lib/components/Home/Goals/GoalSection.svelte';
+	import BlogSection from '../lib/components/Home/Blog/BlogSection.svelte';
+	import ContactSection from '../lib/components/Home/Contact/ContactSection.svelte';
 	import { blur } from 'svelte/transition';
 </script>
 <main in:blur={{duration:200}} out:blur={{duration:200}} class="flex flex-col gap-20">
 	<Main />
-	<Products />
-	<Goals />
-	<Blogs />
+	<ProductSection />
+	<GoalSection />
+	<BlogSection />
+	<ContactSection />
 </main>

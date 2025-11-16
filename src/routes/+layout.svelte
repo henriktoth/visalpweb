@@ -18,7 +18,6 @@
 {#if $isLoading}
 	<p>Loading translations...</p>
 {:else}
-	<p class="fixed text-right">DEV_BUILD: 2025-11-14</p>
 	<Navbar />
 	{@render children()}
 	<Footer />

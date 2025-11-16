@@ -5,9 +5,9 @@
 	import Blogs from '../lib/components/Home/Blog/Blogs.svelte';
 	import { blur } from 'svelte/transition';
 </script>
-<div in:blur={{duration:200}} out:blur={{duration:200}} class="flex flex-col gap-20">
+<main in:blur={{duration:200}} out:blur={{duration:200}} class="flex flex-col gap-20">
 	<Main />
 	<Products />
 	<Goals />
 	<Blogs />
-</div>
+</main>

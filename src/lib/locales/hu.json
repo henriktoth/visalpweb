@@ -47,6 +47,8 @@
 			}
 		},
 		"blogs": {
+			"title": "BLOG",
+			"subtitle": "Olvass a VISALP-ról és a hozzá kapcsolódó témákról",
 			"blog1": {
 				"title": "Blog 1",
 				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

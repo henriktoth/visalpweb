@@ -28,26 +28,24 @@
 					<p class="text-sm font-bold [@media(min-width:640px)]:text-base">
 						{$_('footer.platforms')}:
 					</p>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">YouTube</a>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">TikTok</a>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">AppStore</a>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">Google Play</a>
+					<a href="https://www.youtube.com/@thehenriktoth" class="text-xs [@media(min-width:640px)]:text-sm">YouTube</a>
+					<a href="https://www.tiktok.com/@thehenriktoth" class="text-xs [@media(min-width:640px)]:text-sm">TikTok</a>
+
 				</div>
 				<div class="flex flex-col gap-2 text-center [@media(min-width:650px)]:text-left">
 					<p class="text-sm font-bold [@media(min-width:640px)]:text-base">
 						{$_('footer.navigation')}:
 					</p>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.home')}</a>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.apps')}</a>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.blog')}</a>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.contact')}</a>
+					<a href="/" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.home')}</a>
+					<a href="/apps" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.apps')}</a>
+					<a href="/blog" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.blog')}</a>
+					<a href="/contact" class="text-xs [@media(min-width:640px)]:text-sm">{$_('nav.contact')}</a>
 				</div>
 				<div class="flex flex-col gap-2 text-center [@media(min-width:650px)]:text-left">
 					<p class="text-sm font-bold [@media(min-width:640px)]:text-base">
 						{$_('footer.important_links')}:
 					</p>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">Link 1</a>
-					<a href="" class="text-xs [@media(min-width:640px)]:text-sm">Link 2</a>
+					<p class="text-neutral-500">//TODO</p>
 				</div>
 			</div>
 		</div>

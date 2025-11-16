@@ -3,7 +3,7 @@
 	import ProductCard from './ProductCard.svelte';
 </script>
 
-<div
+<section
 	class="mx-3 mx-5 flex flex-col items-center justify-between gap-10 rounded-4xl bg-white px-4 py-3 [@media(min-width:640px)]:mx-5 [@media(min-width:640px)]:px-8 [@media(min-width:900px)]:px-15 [@media(min-width:900px)]:py-4"
 	style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 >
@@ -25,9 +25,11 @@
 			description={$_('main_page.products.prod3.description')}
 		/>
 	</div>
+	<a href="/apps">
 	<button
 		class="m-5 w-auto rounded-full bg-neutral-200 px-12 py-2 text-neutral-600 hover:cursor-pointer hover:bg-neutral-300"
 	>
 		{$_('main_page.products.more_apps')}
 	</button>
-</div>
+	</a>
+</section>

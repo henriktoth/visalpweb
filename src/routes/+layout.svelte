@@ -16,7 +16,9 @@
 </svelte:head>
 
 {#if $isLoading}
-	<p>Loading translations...</p>
+	<div class="min-h-screen flex items-center justify-center">
+		<p class="text-center">Loading...</p>
+	</div>
 {:else}
 	<Navbar />
 	{@render children()}

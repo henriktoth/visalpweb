@@ -22,7 +22,6 @@ init({
 	initialLocale: initial
 });
 
-
 if (typeof window !== 'undefined') {
 	$locale.subscribe((val) => {
 		try {

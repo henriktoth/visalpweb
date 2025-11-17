@@ -1,11 +1,10 @@
 <script>
-	import Switch from '$lib/components/util/Switch.svelte';
 	import { slide, blur } from 'svelte/transition';
 	import logo from '$lib/assets/logo.svg';
 	import { _, locale } from 'svelte-i18n';
+	import { base } from '$app/paths';
 
 	let viewportWidth = $state(0);
-	let darkMode = $state(false);
 	let mobileMenuOpen = $state(false);
 	let languageMenuOpen = $state(false);
 
@@ -25,13 +24,13 @@
 		class="mx-5 mt-5 flex items-center justify-between rounded-full bg-white px-8 py-3 [@media(min-width:640px)]:mx-5 [@media(min-width:640px)]:mt-5"
 		style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 	>
-		<a href="/"><img src={logo} alt="Logo" class="w-24" /></a>
+		<a href={`${base}/`}><img src={logo} alt="Logo" class="w-24" /></a>
 		{#if viewportWidth >= 900}
 			<ul class="flex gap-15">
-				<li><a class="navhover" href="/">{$_('nav.home')}</a></li>
-				<li><a class="navhover" href="/apps">{$_('nav.apps')}</a></li>
-				<li><a class="navhover" href="/blog">{$_('nav.blog')}</a></li>
-				<li><a class="navhover" href="/contact">{$_('nav.contact')}</a></li>
+				<li><a class="navhover" href={`${base}/`}>{$_('nav.home')}</a></li>
+				<li><a class="navhover" href={`${base}/apps`}>{$_('nav.apps')}</a></li>
+				<li><a class="navhover" href={`${base}/blog`}>{$_('nav.blog')}</a></li>
+				<li><a class="navhover" href={`${base}/contact`}>{$_('nav.contact')}</a></li>
 			</ul>
 
 			<div class="flex gap-4">
@@ -120,7 +119,7 @@
 				<li>
 					<a
 						class="navhover"
-						href="/"
+						href={`${base}/`}
 						onclick={() => {
 							mobileMenuOpen = false;
 						}}
@@ -131,7 +130,7 @@
 				<li>
 					<a
 						class="navhover"
-						href="/apps"
+						href={`${base}/apps`}
 						onclick={() => {
 							mobileMenuOpen = false;
 						}}
@@ -142,7 +141,7 @@
 				<li>
 					<a
 						class="navhover"
-						href="/blog"
+						href={`${base}/blog`}
 						onclick={() => {
 							mobileMenuOpen = false;
 						}}
@@ -153,7 +152,7 @@
 				<li>
 					<a
 						class="navhover"
-						href="/contact"
+						href={`${base}/contact`}
 						onclick={() => {
 							mobileMenuOpen = false;
 						}}

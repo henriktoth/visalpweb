@@ -3,7 +3,7 @@
 	import goals_icon1 from '../../../assets/goal_logo_1.svg';
 	import goals_icon2 from '../../../assets/goal_logo_2.svg';
 	import goals_icon3 from '../../../assets/goal_logo_3.svg';
-	import { _, locale } from 'svelte-i18n';
+	import { _ } from 'svelte-i18n';
 </script>
 
 <section class="container mx-auto px-4">
@@ -15,21 +15,23 @@
 	</div>
 
 	<!-- stacked on small screens, single-row (no wrap) on md+ -->
-	<div class="mt-6 flex flex-col gap-15 md:flex-row md:justify-center items-center md:items-stretch">
-			<GoalsCard
-                icon={goals_icon1}
-				title={$_('main_page.goals.goal1.title')}
-				description={$_('main_page.goals.goal1.description')}
-			/>
-			<GoalsCard
-                icon={goals_icon2}
-				title={$_('main_page.goals.goal2.title')}
-				description={$_('main_page.goals.goal2.description')}
-			/>
-			<GoalsCard
-				icon={goals_icon3}
-				title={$_('main_page.goals.goal3.title')}
-				description={$_('main_page.goals.goal3.description')}
-			/>
+	<div
+		class="mt-6 flex flex-col items-center gap-15 md:flex-row md:items-stretch md:justify-center"
+	>
+		<GoalsCard
+			icon={goals_icon1}
+			title={$_('main_page.goals.goal1.title')}
+			description={$_('main_page.goals.goal1.description')}
+		/>
+		<GoalsCard
+			icon={goals_icon2}
+			title={$_('main_page.goals.goal2.title')}
+			description={$_('main_page.goals.goal2.description')}
+		/>
+		<GoalsCard
+			icon={goals_icon3}
+			title={$_('main_page.goals.goal3.title')}
+			description={$_('main_page.goals.goal3.description')}
+		/>
 	</div>
 </section>

@@ -23,8 +23,6 @@
 
 		value = checked === true ? 'on' : 'off';
 	}
-
-	const slugify = (str = '') => str.toLowerCase().replace(/ /g, '-').replace(/\./g, '');
 </script>
 
 {#if design == 'inner'}
@@ -61,7 +59,7 @@
 			id={`group-${uniqueID}`}
 		>
 			<div class="legend" id={`label-${uniqueID}`}>{label}</div>
-			{#each options as option}
+			{#each options as option, i (option + '-' + i)}
 				<input type="radio" id={`${option}-${uniqueID}`} value={option} bind:group={value} />
 				<label for={`${option}-${uniqueID}`}>
 					{option}

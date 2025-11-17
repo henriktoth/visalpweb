@@ -1,13 +1,13 @@
 <script>
-	import { _, locale } from 'svelte-i18n';
-	let { icon, title, description } = $props();
+	import { _ } from 'svelte-i18n';
+	let { title, description } = $props();
 	import blogPlaceholder from '../../../assets/blog_placeholder.png';
 </script>
 
-<div class="flex w-full max-w-[420px] flex-col gap-5 h-full">
-	<div class="flex flex-col flex-1">
-		<img src={blogPlaceholder} alt="" class="w-full h-48" />
-		<h2 class="text-xl font-bold mt-5">{title}</h2>
+<div class="flex h-full w-full max-w-[420px] flex-col gap-5">
+	<div class="flex flex-1 flex-col">
+		<img src={blogPlaceholder} alt="" class="h-48 w-full" />
+		<h2 class="mt-5 text-xl font-bold">{title}</h2>
 		<p class="mt-2">{description}</p>
 	</div>
 	<button

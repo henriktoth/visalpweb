@@ -1,5 +1,6 @@
 <script>
-	import { _, locale } from 'svelte-i18n';
+	import { _ } from 'svelte-i18n';
+	import { base } from '$app/paths';
 	import ProductCard from './ProductCard.svelte';
 	import delcam from '../../../assets/delcam_logo.svg';
 	import fileorganizer from '../../../assets/fileorganizer_logo.svg';
@@ -28,11 +29,11 @@
 			description={$_('main_page.products.prod3.description')}
 		/>
 	</div>
-	<a href="/apps">
-	<button
-		class="m-5 w-auto rounded-full bg-neutral-200 px-12 py-2 text-neutral-600 hover:cursor-pointer hover:bg-neutral-300"
-	>
-		{$_('main_page.products.more_apps')}
-	</button>
+	<a href={`${base}/apps`}>
+		<button
+			class="m-5 w-auto rounded-full bg-neutral-200 px-12 py-2 text-neutral-600 hover:cursor-pointer hover:bg-neutral-300"
+		>
+			{$_('main_page.products.more_apps')}
+		</button>
 	</a>
 </section>

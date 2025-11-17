@@ -20,8 +20,8 @@
 		const mailto =
 			'mailto:visalpentertainment@gmail.com?subject=' +
 			encodeURIComponent(subject) +
-			encodeURIComponent(body) +
-			'&body=';
+			'&body=' +
+			encodeURIComponent(body);
 
 		window.location.href = mailto;
 	}

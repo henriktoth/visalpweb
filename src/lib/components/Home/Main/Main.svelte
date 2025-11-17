@@ -5,7 +5,8 @@
 	import mainArt from '../../../assets/main.png';
 </script>
 <section
-	class="z-0 mx-4 mt-30 flex min-h-[500px] flex-row items-center justify-center [@media(min-width:960px)]:mx-10 [@media(min-width:960px)]:justify-around"
+	class="z-0 mx-4 mt-30 flex min-h-[500px] flex-col items-center justify-center [@media(min-width:960px)]:flex-row [@media(min-width:960px)]:mx-10 [@media(min-width:960px)]:justify-around"
+    
 >
 	<div class="" in:fly={{ x: -200, duration: 1000 }}>
 		<div class="flex flex-col gap-5 text-center [@media(min-width:960px)]:text-left">
@@ -58,11 +59,11 @@
 			</a>
 		</div>
 	</div>
-	<div class="hidden [@media(min-width:960px)]:block">
+	<div class="w-full flex justify-center mt-8 [@media(min-width:960px)]:mt-0 [@media(min-width:960px)]:w-auto">
 		<img
 			src={mainArt}
 			alt="Alpaca sitting in a meditating position"
-			class="w-130"
+			class="w-full h-[50vh] object-contain [@media(min-width:960px)]:w-130 [@media(min-width:960px)]:h-auto"
 			in:fly={{ x: 200, duration: 1000 }}
 		/>
 	</div>

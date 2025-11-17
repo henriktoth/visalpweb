@@ -27,6 +27,10 @@
     }
 </script>
 
+<svelte:head>
+	<title>VISALP - {$_('nav.contact')}</title>
+</svelte:head>
+
 <div in:blur={{duration: 200}} out:blur={{duration: 200}} class="min-h-screen mt-20 mx-5 flex items-center justify-center bg-gray-50 dark:bg-gray-900 py-12">
     <div class="w-full max-w-5xl bg-white dark:bg-gray-800 shadow-lg rounded-3xl p-8 grid grid-cols-1 md:grid-cols-2 items-center">
         <div>

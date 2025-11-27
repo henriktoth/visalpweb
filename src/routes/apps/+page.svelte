@@ -88,7 +88,7 @@
 			</div>
 
 			<!-- Sort & Filter (Visual only for now) -->
-			<div class="flex gap-6">
+			<div class="flex flex-col items-center gap-6 md:flex-row">
 				<div class="flex items-center gap-2">
 					<span class="text-gray-500">{$_('apps_page.sort_by')}</span>
 					<select

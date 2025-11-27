@@ -3,7 +3,7 @@ import { register, init, locale as $locale } from 'svelte-i18n';
 register('en', () => import('./locales/en.json'));
 register('hu', () => import('./locales/hu.json'));
 
-let initial = 'hu';
+let initial = 'en';
 if (typeof window !== 'undefined') {
 	try {
 		const stored = localStorage.getItem('locale');

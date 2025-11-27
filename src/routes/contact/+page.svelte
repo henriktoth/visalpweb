@@ -16,7 +16,7 @@
 		const subject = (formData.get('subject') || '').toString().trim() || 'Általános megkeresés';
 		const message = (formData.get('message') || '').toString().trim();
 
-		const body = `-- ${name}\n\n${message} --`;
+		const body = `${message}\n\n --${name}--`;
 		const mailto =
 			'mailto:visalpentertainment@gmail.com?subject=' +
 			encodeURIComponent(subject) +

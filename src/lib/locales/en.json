@@ -77,7 +77,16 @@
 	},
 	"apps_page": {
 		"title": "We don't have any apps yet.",
-		"subtitle": "Come back later. We're working on it!"
+		"subtitle": "Come back later. We're working on it!",
+		"sort_by": "Sort by:",
+		"sort_options": {
+			"name_asc": "Name Ascending",
+			"name_desc": "Name Descending",
+			"date_asc": "Release Date Ascending",
+			"date_desc": "Release Date Descending"
+		},
+		"filter": "Filter",
+		"search_placeholder": "Search apps"
 	},
 	"blog_page": {
 		"title": "We don't have any blogposts yet.",

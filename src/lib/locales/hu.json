@@ -77,7 +77,16 @@
 	},
 	"apps_page": {
 		"title": "Még nincsenek applikációink.",
-		"subtitle": "Gyere vissza később. Dolgozunk rajta!"
+		"subtitle": "Gyere vissza később. Dolgozunk rajta!",
+		"sort_by": "Rendezés:",
+		"sort_options": {
+			"name_asc": "Név szerint növekvő",
+			"name_desc": "Név szerint csökkenő",
+			"date_asc": "Megjelenés szerint növekvő",
+			"date_desc": "Megjelenés szerint csökkenő"
+		},
+		"filter": "Szűrés",
+		"search_placeholder": "Appok keresése"
 	},
 	"blog_page": {
 		"title": "Még nincsenek blogbejegyzéseink.",

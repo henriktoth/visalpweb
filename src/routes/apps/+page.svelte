@@ -14,12 +14,7 @@
 	};
 
 	let searchQuery = $state('');
-	let sortOrder = $state('asc'); // 'asc', 'desc'
-
-	function toggleSort() {
-		if (sortOrder === 'asc') sortOrder = 'desc';
-		else sortOrder = 'asc';
-	}
+	let sortOption = $state('name-asc');
 
 	let filteredProducts = $derived(
 		products
@@ -30,10 +25,19 @@
 				return name.includes(query) || description.includes(query);
 			})
 			.sort((a, b) => {
-				const nameA = $_(a.name).toLowerCase();
-				const nameB = $_(b.name).toLowerCase();
-				if (sortOrder === 'asc') return nameA.localeCompare(nameB);
-				if (sortOrder === 'desc') return nameB.localeCompare(nameA);
+				const [sortBy, sortOrder] = sortOption.split('-');
+
+				if (sortBy === 'name') {
+					const nameA = $_(a.name).toLowerCase();
+					const nameB = $_(b.name).toLowerCase();
+					if (sortOrder === 'asc') return nameA.localeCompare(nameB);
+					if (sortOrder === 'desc') return nameB.localeCompare(nameA);
+				} else if (sortBy === 'date') {
+					const dateA = new Date(a.release_date);
+					const dateB = new Date(b.release_date);
+					if (sortOrder === 'asc') return dateA - dateB;
+					if (sortOrder === 'desc') return dateB - dateA;
+				}
 				return 0;
 			})
 	);
@@ -73,41 +77,24 @@
 					type="text"
 					bind:value={searchQuery}
 					class="block w-full rounded-full border border-gray-300 bg-white py-2 pl-10 pr-3 leading-5 placeholder-gray-500 transition duration-150 ease-in-out focus:border-blue-300 focus:placeholder-gray-400 focus:outline-none focus:ring focus:ring-blue-200 sm:text-sm"
-					placeholder="Search apps"
+					placeholder={$_('apps_page.search_placeholder')}
 				/>
 			</div>
 
 			<!-- Sort & Filter (Visual only for now) -->
 			<div class="flex gap-6">
-				<button
-					onclick={toggleSort}
-					class="flex items-center gap-2 font-medium text-gray-700 hover:cursor-pointer hover:text-gray-900"
-				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="20"
-						height="20"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"
-						></line><line x1="21" y1="14" x2="3" y2="14"></line><line
-							x1="21"
-							y1="18"
-							x2="3"
-							y2="18"
-						></line></svg
+				<div class="flex items-center gap-2">
+					<span class="text-gray-500">{$_('apps_page.sort_by')}</span>
+					<select
+						bind:value={sortOption}
+						class="cursor-pointer rounded-full border border-gray-300 bg-white pl-6 pr-12 py-3 font-medium text-gray-700 focus:outline-none"
 					>
-					Sort
-					{#if sortOrder === 'asc'}
-						<span class="text-xs">▲</span>
-					{:else}
-						<span class="text-xs">▼</span>
-					{/if}
-				</button>
+						<option value="name-asc">{$_('apps_page.sort_options.name_asc')}</option>
+						<option value="name-desc">{$_('apps_page.sort_options.name_desc')}</option>
+						<option value="date-asc">{$_('apps_page.sort_options.date_asc')}</option>
+						<option value="date-desc">{$_('apps_page.sort_options.date_desc')}</option>
+					</select>
+				</div>
 				<button
 					class="flex items-center gap-2 font-medium text-gray-700 hover:cursor-pointer hover:text-gray-900"
 				>
@@ -133,9 +120,9 @@
 							x2="20"
 							y2="3"
 						></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"
-						></line><line x1="17" y1="16" x2="23" y2="16"></line></svg
+						><line x1="17" y1="16" x2="23" y2="16"></line></svg
 					>
-					Filter
+					{$_('apps_page.filter')}
 				</button>
 			</div>
 		</div>

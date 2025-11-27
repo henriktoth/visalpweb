@@ -3,16 +3,17 @@
 	import logo_textonly from '../../../assets/images/logo_textonly.svg';
 	import windows from '../../../assets/images/windos_logo.svg';
 	import apple from '../../../assets/images/apple_logo.svg';
+	import mac from '../../../assets/images/mac_logo.svg';
 	import linux from '../../../assets/images/linux_logo.svg';
 
 	let { icon, background, title, description, platforms = [], showPlatforms = false } = $props();
 
 	const platformIcons = {
-		windows: windows,
-		mac: apple,
-		linux: linux,
-		ios: apple,
-		android: null
+		Windows: windows,
+		Mac: mac,
+		Linux: linux,
+		iOS: apple,
+		Android: null
 	};
 </script>
 

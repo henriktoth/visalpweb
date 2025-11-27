@@ -86,6 +86,8 @@
 			"date_desc": "Megjelenés szerint csökkenő"
 		},
 		"filter": "Szűrés",
+		"filter_by_platform": "Szűrés:",
+		"all_platforms": "Összes platform",
 		"search_placeholder": "Appok keresése"
 	},
 	"blog_page": {

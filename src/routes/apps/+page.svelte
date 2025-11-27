@@ -15,6 +15,9 @@
 
 	let searchQuery = $state('');
 	let sortOption = $state('name-asc');
+	let selectedPlatform = $state('all');
+
+	const uniquePlatforms = [...new Set(products.flatMap((p) => p.platforms))];
 
 	let filteredProducts = $derived(
 		products
@@ -22,7 +25,10 @@
 				const name = $_(product.name).toLowerCase();
 				const description = $_(product.description_short).toLowerCase();
 				const query = searchQuery.toLowerCase();
-				return name.includes(query) || description.includes(query);
+				const matchesSearch = name.includes(query) || description.includes(query);
+				const matchesPlatform =
+					selectedPlatform === 'all' || product.platforms.includes(selectedPlatform);
+				return matchesSearch && matchesPlatform;
 			})
 			.sort((a, b) => {
 				const [sortBy, sortOrder] = sortOption.split('-');
@@ -98,31 +104,16 @@
 				<button
 					class="flex items-center gap-2 font-medium text-gray-700 hover:cursor-pointer hover:text-gray-900"
 				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="20"
-						height="20"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"
-						></line><line x1="12" y1="21" x2="12" y2="12"></line><line
-							x1="12"
-							y1="8"
-							x2="12"
-							y2="3"
-						></line><line x1="20" y1="21" x2="20" y2="16"></line><line
-							x1="20"
-							y1="12"
-							x2="20"
-							y2="3"
-						></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"
-						><line x1="17" y1="16" x2="23" y2="16"></line></svg
+					<span class="text-gray-500">{$_('apps_page.filter_by_platform')}</span>
+					<select
+						bind:value={selectedPlatform}
+						class="cursor-pointer rounded-full border border-gray-300 bg-white pl-6 pr-12 py-3 font-medium text-gray-700 focus:outline-none"
 					>
-					{$_('apps_page.filter')}
+						<option value="all">{$_('apps_page.all_platforms')}</option>
+						{#each uniquePlatforms as platform}
+							<option value={platform}>{platform}</option>
+						{/each}
+					</select>
 				</button>
 			</div>
 		</div>

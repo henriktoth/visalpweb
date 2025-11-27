@@ -86,6 +86,8 @@
 			"date_desc": "Release Date Descending"
 		},
 		"filter": "Filter",
+		"filter_by_platform": "Filter:",
+		"all_platforms": "All Platforms",
 		"search_placeholder": "Search apps"
 	},
 	"blog_page": {

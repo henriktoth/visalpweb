@@ -1,0 +1,32 @@
+[
+	{
+		"id": "fileorganizer",
+		"icon": "fileorganizer",
+		"name": "products_data.fileorganizer.name",
+		"description_short": "products_data.fileorganizer.description_short",
+		"description_long": "products_data.fileorganizer.description_long",
+		"platforms": ["windows", "mac", "linux"],
+		"release_date": "2025-12-15",
+		"state": "indev"
+	},
+	{
+		"id": "delcam",
+		"icon": "delcam",
+		"name": "products_data.delcam.name",
+		"description_short": "products_data.delcam.description_short",
+		"description_long": "products_data.delcam.description_long",
+		"platforms": ["ios", "android"],
+		"release_date": "2025-12-16",
+		"state": "indev"
+	},
+	{
+		"id": "soulgarden",
+		"icon": "soulgarden",
+		"name": "products_data.soulgarden.name",
+		"description_short": "products_data.soulgarden.description_short",
+		"description_long": "products_data.soulgarden.description_long",
+		"platforms": ["ios", "android"],
+		"release_date": "2025-12-17",
+		"state": "indev"
+	}
+]

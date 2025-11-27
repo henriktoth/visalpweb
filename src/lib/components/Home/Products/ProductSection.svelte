@@ -5,6 +5,13 @@
 	import delcam from '../../../assets/images/delcam_logo.svg';
 	import fileorganizer from '../../../assets/images/fileorganizer_logo.svg';
 	import soulgarden from '../../../assets/images/soulgarden_logo.svg';
+	import products from '../../../assets/data/products.json';
+
+	const icons = {
+		delcam,
+		fileorganizer,
+		soulgarden
+	};
 </script>
 
 <section
@@ -13,21 +20,14 @@
 >
 	<h2 class="nunito-extralight mt-10 text-3xl">{$_('main_page.products.title')}</h2>
 	<div class="flex flex-col justify-center gap-20 [@media(min-width:1040px)]:flex-row">
-		<ProductCard
-			icon={fileorganizer}
-			title={$_('main_page.products.prod1.title')}
-			description={$_('main_page.products.prod1.description')}
-		/>
-		<ProductCard
-			icon={delcam}
-			title={$_('main_page.products.prod2.title')}
-			description={$_('main_page.products.prod2.description')}
-		/>
-		<ProductCard
-			icon={soulgarden}
-			title={$_('main_page.products.prod3.title')}
-			description={$_('main_page.products.prod3.description')}
-		/>
+		{#each products as product}
+			<ProductCard
+				icon={icons[product.icon]}
+				title={$_(product.name)}
+				description={$_(product.description_short)}
+				platforms={product.platforms}
+			/>
+		{/each}
 	</div>
 	<a href={`${base}/apps`}>
 		<button

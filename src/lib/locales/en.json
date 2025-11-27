@@ -27,7 +27,8 @@
 			},
 			"coming_soon": "Coming Soon",
 			"try_now": "Try Now",
-			"more_apps": "More Apps"
+			"more_apps": "More Apps",
+			"available_on": "Available on:"
 		},
 		"goals": {
 			"title": "What is our goal?",
@@ -97,5 +98,22 @@
 		"platforms": "Platforms",
 		"navigation": "Navigation",
 		"important_links": "Important information"
+	},
+	"products_data": {
+		"fileorganizer": {
+			"name": "FileOrganizer",
+			"description_short": "Organize your files into folders based on their extensions!",
+			"description_long": "FileOrganizer helps you keep your digital life tidy by automatically sorting your files into folders based on their file type. No more messy downloads folder!"
+		},
+		"delcam": {
+			"name": "DELcam",
+			"description_short": "Take a photo in a separate gallery and set a timer for deletion!",
+			"description_long": "Take a photo in a separate gallery and set a timer for deletion!"
+		},
+		"soulgarden": {
+			"name": "SoulGarden",
+			"description_short": "Record your daily mood and view the resulting “mood garden",
+			"description_long": "Record your daily mood and view the resulting “mood garden"
+		}
 	}
 }

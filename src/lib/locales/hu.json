@@ -27,7 +27,8 @@
 			},
 			"coming_soon": "Hamarosan...",
 			"try_now": "Próbáld ki!",
-			"more_apps": "További appok"
+			"more_apps": "További appok",
+			"available_on": "Elérhető:"
 		},
 		"goals": {
 			"title": "Mi a célunk?",
@@ -97,5 +98,22 @@
 		"platforms": "Platformok",
 		"navigation": "Navigáció",
 		"important_links": "Fontos információk"
+	},
+	"products_data": {
+		"fileorganizer": {
+			"name": "FileOrganizer",
+			"description_short": "Rendezd mappákba a fájljaidat a kiterjesztésük alapján!",
+			"description_long": "A FileOrganizer segít rendben tartani digitális életedet azáltal, hogy automatikusan mappákba rendezi a fájljaidat a típusuk alapján. Nincs többé rendetlen letöltések mappa!"
+		},
+		"delcam": {
+			"name": "DELcam",
+			"description_short": "Készíts fotót egy elkülönített galériába, majd állíts be időzített törlést!",
+			"description_long": "Készíts fotót egy elkülönített galériába, majd állíts be időzített törlést!"
+		},
+		"soulgarden": {
+			"name": "SoulGarden",
+			"description_short": "Rögzítsd a napi hangulatod és tekintsd meg a belőle alakuló “hangulatkertet",
+			"description_long": "Rögzítsd a napi hangulatod és tekintsd meg a belőle alakuló “hangulatkertet"
+		}
 	}
 }

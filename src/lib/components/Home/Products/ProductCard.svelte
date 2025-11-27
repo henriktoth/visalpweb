@@ -1,6 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n';
-	import logo_textonly from '../../../assets/logo_textonly.svg';
+	import logo_textonly from '../../../assets/images/logo_textonly.svg';
 	let { icon, background, title, description } = $props();
 </script>
 

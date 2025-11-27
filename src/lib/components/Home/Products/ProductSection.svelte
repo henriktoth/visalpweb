@@ -2,9 +2,9 @@
 	import { _ } from 'svelte-i18n';
 	import { base } from '$app/paths';
 	import ProductCard from './ProductCard.svelte';
-	import delcam from '../../../assets/delcam_logo.svg';
-	import fileorganizer from '../../../assets/fileorganizer_logo.svg';
-	import soulgarden from '../../../assets/soulgarden_logo.svg';
+	import delcam from '../../../assets/images/delcam_logo.svg';
+	import fileorganizer from '../../../assets/images/fileorganizer_logo.svg';
+	import soulgarden from '../../../assets/images/soulgarden_logo.svg';
 </script>
 
 <section

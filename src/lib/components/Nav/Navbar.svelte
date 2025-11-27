@@ -1,6 +1,6 @@
 <script>
 	import { slide, blur } from 'svelte/transition';
-	import logo from '$lib/assets/logo.svg';
+	import logo from '$lib/assets/images/logo.svg';
 	import { _, locale } from 'svelte-i18n';
 	import { base } from '$app/paths';
 

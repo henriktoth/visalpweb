@@ -1,5 +1,5 @@
 <script>
-	import email from '../../lib/assets/email.svg';
+	import email from '../../lib/assets/images/email.svg';
 	import { blur } from 'svelte/transition';
 	import { _ } from 'svelte-i18n';
 

@@ -1,8 +1,8 @@
 <script>
 	import GoalsCard from './GoalsCard.svelte';
-	import goals_icon1 from '../../../assets/goal_logo_1.svg';
-	import goals_icon2 from '../../../assets/goal_logo_2.svg';
-	import goals_icon3 from '../../../assets/goal_logo_3.svg';
+	import goals_icon1 from '../../../assets/images/goal_logo_1.svg';
+	import goals_icon2 from '../../../assets/images/goal_logo_2.svg';
+	import goals_icon3 from '../../../assets/images/goal_logo_3.svg';
 	import { _ } from 'svelte-i18n';
 </script>
 

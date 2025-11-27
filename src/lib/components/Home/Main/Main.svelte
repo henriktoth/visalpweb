@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 	import { fly } from 'svelte/transition';
 	import { animateTyping } from '../../../actions/actions.js';
-	import mainArt from '../../../assets/main.png';
+	import mainArt from '../../../assets/images/main.png';
 </script>
 
 <section

@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/images/favicon.svg';
 	import { isLoading } from 'svelte-i18n';
 	import '../lib/i18n';
 	import Navbar from '../lib/components/Nav/Navbar.svelte';

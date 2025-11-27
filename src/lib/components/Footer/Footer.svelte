@@ -1,5 +1,5 @@
 <script>
-	import logo from '$lib/assets/logo.svg';
+	import logo from '$lib/assets/images/logo.svg';
 	import { _ } from 'svelte-i18n';
 	import { base } from '$app/paths';
 </script>

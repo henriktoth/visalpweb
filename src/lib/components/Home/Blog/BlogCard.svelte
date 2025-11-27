@@ -1,7 +1,7 @@
 <script>
 	import { _ } from 'svelte-i18n';
 	let { title, description } = $props();
-	import blogPlaceholder from '../../../assets/blog_placeholder.png';
+	import blogPlaceholder from '../../../assets/images/blog_placeholder.png';
 </script>
 
 <div class="flex h-full w-full max-w-[420px] flex-col gap-5">

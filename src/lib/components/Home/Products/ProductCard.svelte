@@ -6,7 +6,7 @@
 	import mac from '../../../assets/images/mac_logo.svg';
 	import linux from '../../../assets/images/linux_logo.svg';
 
-	let { icon, background, title, description, platforms = [], showPlatforms = false } = $props();
+	let { icon, background, title, description, platforms = [], showPlatforms = false, id, state = 'indev' } = $props();
 
 	const platformIcons = {
 		Windows: windows,
@@ -40,10 +40,19 @@
 			{/each}
 		</div>
 	{/if}
-	<button
-		disabled
-		class="w-full rounded-full border border-neutral-400 px-12 py-2 text-neutral-400"
-	>
-		{$_('main_page.products.coming_soon')}
-	</button>
+	{#if state === 'released'}
+		<a
+			href={`/apps/${id}`}
+			class="w-full inline-block text-center rounded-full border border-neutral-400 px-12 py-2 text-neutral-700 hover:bg-neutral-100"
+		>
+			{$_('main_page.products.try_now')}
+		</a>
+	{:else}
+		<button
+			disabled
+			class="w-full rounded-full border border-neutral-400 px-12 py-2 text-neutral-400"
+		>
+			{$_('main_page.products.coming_soon')}
+		</button>
+	{/if}
 </div>

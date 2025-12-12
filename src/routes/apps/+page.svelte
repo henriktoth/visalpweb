@@ -130,6 +130,8 @@
 						description={$_(product.description_short)}
 						platforms={product.platforms}
 						showPlatforms={true}
+						id={product.id}
+						state={product.state}
 					/>
 				</div>
 			{/each}

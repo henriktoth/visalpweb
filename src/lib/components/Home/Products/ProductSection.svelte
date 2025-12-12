@@ -21,12 +21,14 @@
 	<h2 class="nunito-extralight mt-10 text-3xl">{$_('main_page.products.title')}</h2>
 	<div class="flex flex-col justify-center gap-20 [@media(min-width:1040px)]:flex-row">
 		{#each products as product}
-			<ProductCard
-				icon={icons[product.icon]}
-				title={$_(product.name)}
-				description={$_(product.description_short)}
-				platforms={product.platforms}
-			/>
+				<ProductCard
+					icon={icons[product.icon]}
+					title={$_(product.name)}
+					description={$_(product.description_short)}
+					platforms={product.platforms}
+					id={product.id}
+					state={product.state}
+				/>
 		{/each}
 	</div>
 	<a href={`${base}/apps`}>

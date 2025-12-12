@@ -7,7 +7,7 @@
 		"description_long": "products_data.fileorganizer.description_long",
 		"platforms": ["Windows", "Mac", "Linux"],
 		"release_date": "1",
-		"state": "indev"
+		"state": "released"
 	},
 	{
 		"id": "delcam",

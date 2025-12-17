@@ -5,8 +5,8 @@
 		"name": "products_data.fileorganizer.name",
 		"description_short": "products_data.fileorganizer.description_short",
 		"description_long": "products_data.fileorganizer.description_long",
-		"platforms": ["Windows", "Mac", "Linux"],
-		"release_date": "1",
+		"platforms": ["Mac"],
+		"release_date": "2025-12-18",
 		"state": "released"
 	},
 	{
@@ -16,7 +16,7 @@
 		"description_short": "products_data.delcam.description_short",
 		"description_long": "products_data.delcam.description_long",
 		"platforms": ["iOS", "Android"],
-		"release_date": "2",
+		"release_date": "2026-03-15",
 		"state": "indev"
 	},
 	{
@@ -26,7 +26,7 @@
 		"description_short": "products_data.soulgarden.description_short",
 		"description_long": "products_data.soulgarden.description_long",
 		"platforms": ["iOS", "Android"],
-		"release_date": "3",
+		"release_date": "2026-09-15",
 		"state": "indev"
 	}
 ]

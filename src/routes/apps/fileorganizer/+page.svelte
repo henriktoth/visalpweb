@@ -18,7 +18,10 @@
     Android: null
   };
 
-  const isReleased = product?.state === 'released';
+  const downloadLinks = {
+    Windows: 'https://downloads.visalp.hu/FileOrganizer.exe',
+    Mac: 'https://downloads.visalp.hu/FileOrganizer.zip'
+  };
 
   function formatDate(d) {
     if (!d) return '';
@@ -61,16 +64,24 @@
 
             <div class="flex flex-wrap gap-3">
               {#each product.platforms as platform}
-                <button
-                  class="flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors"
-                  class:opacity-50={!isReleased}
-                  disabled={!isReleased}
+              <a href={downloadLinks[platform] || '#'} target="_blank">  
+              <button
+                  class="group relative flex items-center justify-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-all duration-300 overflow-hidden hover:cursor-pointer hover:bg-black hover:border-black"
                 >
-                  {#if platformIcons[platform]}
-                    <img src={platformIcons[platform]} alt={platform} class="h-4 w-4" />
-                  {/if}
-                  <span>{platform}</span>
+                  <div class="flex items-center gap-2 transition-all duration-300 group-hover:opacity-0 group-hover:translate-y-4">
+                    {#if platformIcons[platform]}
+                      <img src={platformIcons[platform]} alt={platform} class="h-4 w-4" />
+                    {/if}
+                    <span>{platform}</span>
+                  </div>
+                  
+                  <div class="absolute inset-0 flex items-center justify-center opacity-0 transition-all duration-300 -translate-y-4 group-hover:translate-y-0 group-hover:opacity-100">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="white" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                      </svg>
+                  </div>
                 </button>
+              </a>
               {/each}
             </div>
           </div>

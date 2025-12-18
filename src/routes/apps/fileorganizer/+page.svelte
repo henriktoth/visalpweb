@@ -20,7 +20,7 @@
 
   const downloadLinks = {
     Windows: 'https://downloads.visalp.hu/FileOrganizer.exe',
-    Mac: 'https://downloads.visalp.hu/FileOrganizer.zip'
+    Mac: 'https://downloads.visalp.hu/FileOrganizer-Installer.dmg'
   };
 
   function formatDate(d) {

@@ -108,7 +108,79 @@
 		"copyright_text": "Minden jog fenntartva.",
 		"platforms": "Platformok",
 		"navigation": "Navigáció",
-		"important_links": "Fontos információk"
+		"important_links": "Fontos információk",
+		"legal": "Jogi nyilatkozat",
+		"privacy_policy": "Adatvédelmi irányelvek"
+	},
+	"privacy_policy_page": {
+		"title": "Adatvédelmi Irányelvek",
+		"last_updated": "Utolsó frissítés: 2025. január",
+		"intro_1": "Üdvözöljük a VISALP-nál. Tiszteletben tartjuk a magánéletét, és elkötelezettek vagyunk a velünk megosztott személyes adatainak védelme mellett.",
+		"intro_2": "Ez az Adatvédelmi Szabályzat elmagyarázza, hogyan gyűjti, használja és teszi közzé a VISALP („mi”, „minket” vagy „miénk”) az információkat, amikor meglátogatja weboldalunkat (<a href=\"https://www.visalp.hu/\" class=\"text-blue-600 hover:underline\">https://www.visalp.hu/</a>), vagy használja asztali vagy mobil szoftveralkalmazásainkat (együttesen a „Szolgáltatások”).",
+		"sections": {
+			"1": {
+				"title": "1. Filozófiánk",
+				"content": "A VISALP-nál a produktivitást és a tudatosságot segítő eszközöket készítünk. Hiszünk abban, hogy digitális környezete – legyen szó fájlstruktúráról vagy mentális térről – az Öné. Ezért alapértelmezett megközelítésünk az, hogy adatait lehetőség szerint helyben, az eszközén tároljuk."
+			},
+			"2": {
+				"title": "2. Az általunk gyűjtött információk",
+				"subsection_a": {
+					"title": "A. Amikor meglátogatja weboldalunkat",
+					"content": "A legtöbb weboldalhoz hasonlóan mi is automatikusan gyűjthetünk nem személyes technikai információkat:",
+					"list": {
+						"log_data": "<strong>Naplóadatok:</strong> Ez magában foglalhatja az IP-címét, a böngésző típusát és a meglátogatott oldalakat. Ezt a csalások megelőzésére és az oldal megfelelő működésének biztosítására használjuk.",
+						"cookies": "<strong>Sütik (Cookies):</strong> A weboldal működéséhez szükséges minimális sütiket használunk. Nem használunk agresszív nyomkövető sütiket, és nem adjuk el böngészési előzményeit.",
+						"communication": "<strong>Kommunikáció:</strong> Ha e-mailben vagy kapcsolatfelvételi űrlapon keresztül lép kapcsolatba velünk, nevét és e-mail címét kizárólag a megkeresésére adott válaszadáshoz gyűjtjük."
+					}
+				},
+				"subsection_b": {
+					"title": "B. Amikor asztali alkalmazásainkat használja",
+					"content": "Alkalmazásainkat alapértelmezés szerint a magánélet védelmére terveztük.",
+					"list": {
+						"local_processing": "<strong>Helyi feldolgozás:</strong> Minden alapvető funkció – például mappák rendszerezése, fájlok átstrukturálása vagy felhasználói bevitelek feldolgozása – helyben, a számítógépe merevlemezén történik. Nem továbbítjuk fájljait, mappaneveit vagy tartalmát a felhőbe."
+					}
+				}
+			},
+			"3": {
+				"title": "3. Hogyan használjuk fel adatait",
+				"content": "Az általunk gyűjtött korlátozott információkat a következő célokra használjuk:",
+				"list": {
+					"1": "A Szolgáltatások nyújtása és fenntartása.",
+					"2": "Értesítés a szoftverünk változásairól vagy frissítéseiről.",
+					"3": "Ügyfélszolgálat biztosítása.",
+					"4": "Technikai problémák észlelése és megelőzése."
+				},
+				"footer": "Nem adjuk el, nem cseréljük el és nem adjuk bérbe személyes azonosításra alkalmas adatait másoknak."
+			},
+			"4": {
+				"title": "4. Adatbiztonság",
+				"content": "Mivel asztali alkalmazásaink helyben dolgozzák fel az adatokat, fájljai az Ön ellenőrzése és biztonsági protokolljai alatt maradnak. A weboldalunkon keresztül gyűjtött adatok (például e-mail címe) esetében szabványos iparági biztonsági intézkedéseket alkalmazunk az illetéktelen hozzáférés elleni védelem érdekében."
+			},
+			"5": {
+				"title": "5. Harmadik fél szolgáltatásai",
+				"content": "Megbízható harmadik fél szolgáltatókat vehetünk igénybe üzleti tevékenységünk működtetéséhez. Ezek közé tartozhatnak:",
+				"list": {
+					"payment": "<strong>Fizetési feldolgozók:</strong> Ha licencet vásárol, fizetését harmadik fél (pl. Stripe, PayPal) dolgozza fel. A VISALP nem tárolja hitelkártyaadatait.",
+					"analytics": "<strong>Weboldal-analitika:</strong> Egyszerű analitikai eszközöket használhatunk annak megtekintésére, hogy hányan látogatják oldalunkat."
+				}
+			},
+			"6": {
+				"title": "6. Gyermekek adatvédelme",
+				"content": "Szolgáltatásaink nem szólnak 13 éven aluliaknak. Nem gyűjtünk tudatosan személyes azonosításra alkalmas információkat gyermekektől. Ha Ön szülő, és tudomása van arról, hogy gyermeke személyes adatokat adott meg nekünk, kérjük, lépjen kapcsolatba velünk."
+			},
+			"7": {
+				"title": "7. Változások ebben az Adatvédelmi Szabályzatban",
+				"content": "Időről időre frissíthetjük Adatvédelmi Szabályzatunkat. A változásokról úgy értesítjük, hogy közzétesszük az új Adatvédelmi Szabályzatot ezen az oldalon, és frissítjük az „Utolsó frissítés” dátumát a tetején."
+			},
+			"8": {
+				"title": "8. Kapcsolatfelvétel",
+				"content": "Ha bármilyen kérdése van ezzel az Adatvédelmi Szabályzattal kapcsolatban, kérjük, lépjen kapcsolatba velünk:",
+				"list": {
+					"email": "E-mailben: visalpentertainment@gmail.com",
+					"page": "Weboldalunkon ezen az oldalon: <a href=\"/contact\" class=\"text-blue-600 hover:underline\">Kapcsolat oldal</a>"
+				}
+			}
+		}
 	},
 	"products_data": {
 		"fileorganizer": {

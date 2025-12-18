@@ -108,7 +108,79 @@
 		"copyright_text": "All rights reserved.",
 		"platforms": "Platforms",
 		"navigation": "Navigation",
-		"important_links": "Important information"
+		"important_links": "Important information",
+		"legal": "Legal",
+		"privacy_policy": "Privacy Policy"
+	},
+	"privacy_policy_page": {
+		"title": "Privacy Policy",
+		"last_updated": "Last Updated: January 2025",
+		"intro_1": "Welcome to VISALP. We respect your privacy and are committed to protecting the personal information you share with us.",
+		"intro_2": "This Privacy Policy explains how VISALP (\"we,\" \"us,\" or \"our\") collects, uses, and discloses information when you visit our website (<a href=\"https://www.visalp.hu/\" class=\"text-blue-600 hover:underline\">https://www.visalp.hu/</a>) or use our desktop or mobile software applications (collectively, the \"Services\").",
+		"sections": {
+			"1": {
+				"title": "1. Our Philosophy",
+				"content": "At VISALP, we build tools for productivity and mindfulness. We believe your digital environment—whether it is your file structure or your mental space—belongs to you. As such, our default approach is to keep your data local on your device whenever possible."
+			},
+			"2": {
+				"title": "2. Information We Collect",
+				"subsection_a": {
+					"title": "A. When You Visit Our Website",
+					"content": "Like most websites, we may collect non-personal technical information automatically:",
+					"list": {
+						"log_data": "<strong>Log Data:</strong> This may include your IP address, browser type, and the pages you visit. We use this to prevent fraud and ensure the site is working correctly.",
+						"cookies": "<strong>Cookies:</strong> We use minimal cookies necessary for the website to function. We do not use aggressive tracking cookies or sell your browsing history.",
+						"communication": "<strong>Communication:</strong> If you contact us via email or a contact form, we collect your name and email address solely to reply to your inquiry."
+					}
+				},
+				"subsection_b": {
+					"title": "B. When You Use Our Desktop Apps",
+					"content": "Our applications are designed with privacy by default.",
+					"list": {
+						"local_processing": "<strong>Local Processing:</strong> All core functions—such as organizing folders, restructuring files, or processing user inputs—occur locally on your computer's hard drive. We do not transmit your files, folder names, or content to the cloud."
+					}
+				}
+			},
+			"3": {
+				"title": "3. How We Use Your Information",
+				"content": "We use the limited information we collect for the following purposes:",
+				"list": {
+					"1": "To provide and maintain the Services.",
+					"2": "To notify you about changes or updates to our software.",
+					"3": "To provide customer support.",
+					"4": "To detect and prevent technical issues."
+				},
+				"footer": "We do not sell, trade, or rent your personal identification information to others."
+			},
+			"4": {
+				"title": "4. Data Security",
+				"content": "Because our desktop applications process data locally, your files remain under your control and security protocols. For data collected via our website (such as your email address), we implement standard industry security measures to protect against unauthorized access."
+			},
+			"5": {
+				"title": "5. Third-Party Services",
+				"content": "We may use trusted third-party service providers to help us operate our business. These may include:",
+				"list": {
+					"payment": "<strong>Payment Processors:</strong> If you purchase a license, your payment is processed by a third party (e.g., Stripe, PayPal). VISALP does not store your credit card details.",
+					"analytics": "<strong>Website Analytics:</strong> We may use simple analytics tools to see how many people visit our site."
+				}
+			},
+			"6": {
+				"title": "6. Children's Privacy",
+				"content": "Our Services are not addressed to anyone under the age of 13. We do not knowingly collect personal identifiable information from children. If you are a parent and you are aware that your child has provided us with personal data, please contact us."
+			},
+			"7": {
+				"title": "7. Changes to This Privacy Policy",
+				"content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Last Updated\" date at the top."
+			},
+			"8": {
+				"title": "8. Contact Us",
+				"content": "If you have any questions about this Privacy Policy, please contact us:",
+				"list": {
+					"email": "By email: visalpentertainment@gmail.com",
+					"page": "By visiting this page on our website: <a href=\"/contact\" class=\"text-blue-600 hover:underline\">Contact Page</a>"
+				}
+			}
+		}
 	},
 	"products_data": {
 		"fileorganizer": {

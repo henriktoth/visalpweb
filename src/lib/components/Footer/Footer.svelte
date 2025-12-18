@@ -54,6 +54,14 @@
 					>{$_('nav.contact')}</a
 				>
 			</div>
+			<div class="flex flex-col gap-2 text-center [@media(min-width:650px)]:text-left">
+				<p class="text-sm font-bold [@media(min-width:640px)]:text-base">
+					{$_('footer.legal')}:
+				</p>
+				<a href={`${base}/privacy-policy`} class="text-xs [@media(min-width:640px)]:text-sm"
+					>{$_('footer.privacy_policy')}</a
+				>
+			</div>
 		</div>
 	</div>
 	<div class="flex flex-col items-center py-5">

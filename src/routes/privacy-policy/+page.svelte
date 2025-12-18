@@ -17,11 +17,7 @@
 
 	<div class="space-y-6 text-lg leading-relaxed">
 		<p>
-			{$_('privacy_policy_page.intro_1')}
-		</p>
-
-		<p>
-			{@html $_('privacy_policy_page.intro_2')}
+			{@html $_('privacy_policy_page.intro')}
 		</p>
 
 		<section>

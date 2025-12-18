@@ -114,9 +114,8 @@
 	},
 	"privacy_policy_page": {
 		"title": "Adatvédelmi Irányelvek",
-		"last_updated": "Utolsó frissítés: 2025. január",
-		"intro_1": "Üdvözöljük a VISALP-nál. Tiszteletben tartjuk a magánéletét, és elkötelezettek vagyunk a velünk megosztott személyes adatainak védelme mellett.",
-		"intro_2": "Ez az Adatvédelmi Szabályzat elmagyarázza, hogyan gyűjti, használja és teszi közzé a VISALP („mi”, „minket” vagy „miénk”) az információkat, amikor meglátogatja weboldalunkat (<a href=\"https://www.visalp.hu/\" class=\"text-blue-600 hover:underline\">https://www.visalp.hu/</a>), vagy használja asztali vagy mobil szoftveralkalmazásainkat (együttesen a „Szolgáltatások”).",
+		"last_updated": "Utolsó frissítés: 2025. 12. 18.",
+		"intro": "Ez az Adatvédelmi Szabályzat elmagyarázza, hogyan gyűjti, használja és teszi közzé a VISALP („mi”, „minket” vagy „miénk”) az információkat, amikor meglátogatja weboldalunkat (<a href=\"https://www.visalp.hu/\" class=\"text-blue-600 hover:underline\">https://www.visalp.hu/</a>), vagy használja asztali vagy mobil szoftveralkalmazásainkat (együttesen a „Szolgáltatások”).",
 		"sections": {
 			"1": {
 				"title": "1. Filozófiánk",

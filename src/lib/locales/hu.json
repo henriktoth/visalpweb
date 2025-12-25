@@ -90,6 +90,59 @@
 		"all_platforms": "Összes platform",
 		"search_placeholder": "Appok keresése"
 	},
+	"fileorganizer_page": {
+		"hero_title": "Tegyen rendet a mappáiban<br/><span class=\"text-blue-600\">erőfeszítés nélkül.</span>",
+		"hero_subtitle": "A File Organizer az egyszerű és gyors módja a digitális káosz felszámolásának. Rendszerezze fájljait, kezelje az ismeretlen elemeket, és szabja testre a szabályokat a munkafolyamatához.",
+		"released": "Megjelent:",
+		"download_windows": "Letöltés Windowsra",
+		"download_mac": "Letöltés Macre",
+		"eula_text": "Az alkalmazás használatához el kell fogadnia a következő",
+		"eula_link": "ÁSZF-et",
+		"feature_simple_title": "Egyszerű és Gyors",
+		"feature_simple_desc": "Gyorsaságra tervezve. Csak töltse be a rendetlen mappát, és nézze, ahogy másodpercek alatt rendet tesz. Nincs szükség bonyolult beállításokra – azonnal működik.",
+		"feature_control_title": "Teljes Kontroll",
+		"feature_control_desc": "Ön dönt. Válassza ki, hogyan kezelje az almappákat, és határozza meg pontosan, mi történjen az ismeretlen fájlokkal."
+	},
+	"eula_page": {
+		"title": "ÁLTALÁNOS SZERZŐDÉSI FELTÉTELEK (ÁSZF)",
+		"for_app": "a FileOrganizer alkalmazáshoz",
+		"last_updated": "Utolsó frissítés: 2025. 12. 18.",
+		"intro": "Jelen Általános Szerződési Feltételek („ÁSZF”) jogi megállapodás Ön (mint magánszemély vagy jogi személy) és Tóth Henrik, a VISALP alapítója („Szerző”) között a FileOrganizer szoftvertermékre („Szoftver”) vonatkozóan.\n\nA Szoftver telepítésével, másolásával vagy egyéb módon történő használatával Ön magára nézve kötelezőnek ismeri el jelen ÁSZF feltételeit. Ha nem ért egyet jelen ÁSZF feltételeivel, ne telepítse és ne használja a Szoftvert.",
+		"sections": [
+			{
+				"title": "1. A LICENC MEGADÁSA",
+				"content": "A Szerző visszavonható, nem kizárólagos, nem átruházható, korlátozott licencet biztosít Önnek a Szoftver letöltésére, telepítésére és használatára, kizárólag személyes, nem kereskedelmi célokra, szigorúan jelen ÁSZF feltételeivel összhangban."
+			},
+			{
+				"title": "2. FELHASZNÁLÁSI KORLÁTOZÁSOK",
+				"content": "Ön vállalja, hogy nem teszi a következőket, és másoknak sem engedélyezi, hogy: a) A Szoftvert licencbe adja, eladja, bérbe adja, lízingelje, terjessze, továbbítsa, hosztolja, kiszervezze, közzétegye vagy egyéb módon kereskedelmileg hasznosítsa, illetve harmadik fél számára elérhetővé tegye. b) A Szoftvert vagy annak bármely részét módosítsa, abból származékos műveket készítsen, visszafejtse (disassemble), dekódolja, fordítsa vagy forráskódját visszaállítsa (reverse engineer)."
+			},
+			{
+				"title": "3. SZELLEMI TULAJDON",
+				"content": "A Szoftver, beleértve korlátozás nélkül minden szerzői jogot, szabadalmat, védjegyet, üzleti titkot és egyéb szellemi tulajdonjogot, a Szerző kizárólagos tulajdonát képezi és marad."
+			},
+			{
+				"title": "4. MEGSZŰNÉS",
+				"content": "Jelen Megállapodás a felmondásig hatályos. Az Ön jelen Megállapodásból eredő jogai a Szerző értesítése nélkül automatikusan megszűnnek, amennyiben Ön nem tesz eleget a Megállapodás bármely feltételének. A Megállapodás megszűnésekor Ön köteles a Szoftver minden használatát beszüntetni, és a Szoftver összes másolatát – legyen az teljes vagy részleges – megsemmisíteni."
+			},
+			{
+				"title": "5. SZAVATOSSÁG KIZÁRÁSA",
+				"content": "A SZOFTVER „JELEN ÁLLAPOTÁBAN” („AS IS”) KERÜL ÁTADÁSRA, BÁRMIFÉLE KIFEJEZETT VAGY HALLGATÓLAGOS GARANCIA NÉLKÜL, BELEÉRTVE, DE NEM KIZÁRÓLAGOSAN AZ ELADHATÓSÁGRA, A KONKRÉT CÉLRA VALÓ ALKALMASSÁGRA ÉS A JOGTISZTASÁGRA VONATKOZÓ GARANCIÁKAT. AZ ALKALMAZANDÓ JOG ÁLTAL MEGENGEDETT MAXIMÁLIS MÉRTÉKBEN A SZERZŐ KIZÁR MINDEN, A SZOFTVERRE VONATKOZÓ SZAVATOSSÁGOT."
+			},
+			{
+				"title": "6. A FELELŐSSÉG KORLÁTOZÁSA",
+				"content": "A VISALP (VAGY AZ ALAPÍTÓ TÓTH HENRIK) SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT NEM VÁLLAL FELELŐSSÉGET SEMMILYEN KÜLÖNLEGES, VÉLETLENSZERŰ, KÖZVETETT VAGY KÖVETKEZMÉNYES KÁRÉRT (BELEÉRTVE, KORLÁTOZÁS NÉLKÜL, AZ ELMARADT ÜZLETI HASZNOT, AZ ÜZLETMENET MEGSZAKADÁSÁT, AZ ÜZLETI INFORMÁCIÓK ELVESZTÉSÉT VAGY BÁRMELY MÁS ANYAGI VESZTESÉGET), AMELY A TERMÉK HASZNÁLATÁBÓL VAGY A HASZNÁLATRA VALÓ KÉPTELENSÉGBŐL ERED.\n\nKIFEJEZETTEN AZ ADATVESZTÉSRE VONATKOZÓAN: ÖN TUDOMÁSUL VESZI, HOGY EZT A SZOFTVERT A RENDSZERÉN LÉVŐ FÁJLOK MÓDOSÍTÁSÁRA, ÁTHELYEZÉSÉRE ÉS RENDSZEREZÉSÉRE TERVEZTÉK. A SZOFTVER HASZNÁLATÁVAL ÖN ELFOGADJA, HOGY A SZERZŐ NEM TEHETŐ FELELŐSSÉ SEMMILYEN ADATVESZTÉSÉRT, FÁJLKÁROSODÁSÉRT VAGY VÉLETLEN TÖRLÉSÉRT, AMELY A SZOFTVER MŰKÖDÉSE SORÁN BEKÖVETKEZHET. AZ ÖN FELELŐSSÉGE, HOGY A SZOFTVER HASZNÁLATA ELŐTT BIZTONSÁGI MENTÉST KÉSZÍTSEN ADATAIRÓL."
+			},
+			{
+				"title": "7. ALKALMAZANDÓ JOG",
+				"content": "Jelen Megállapodásra Magyarország törvényei az irányadók, és azokkal összhangban kell értelmezni."
+			},
+			{
+				"title": "8. NYELVEZET",
+				"content": "Jelen Megállapodás angol és magyar nyelven készült. A két változat közötti bármely ellentmondás vagy eltérés esetén az angol nyelvű változat az irányadó és kötelező érvényű."
+			}
+		]
+	},
 	"blog_page": {
 		"title": "Még nincsenek blogbejegyzéseink.",
 		"subtitle": "Gyere vissza később. Dolgozunk rajta!"

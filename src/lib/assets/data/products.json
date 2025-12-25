@@ -3,6 +3,7 @@
 		"id": "fileorganizer",
 		"icon": "fileorganizer",
 		"name": "products_data.fileorganizer.name",
+		"version": "1.0.0",
 		"description_short": "products_data.fileorganizer.description_short",
 		"description_long": "products_data.fileorganizer.description_long",
 		"platforms": ["Mac"],
@@ -12,6 +13,7 @@
 	{
 		"id": "delcam",
 		"icon": "delcam",
+		"version": "0.0.0",
 		"name": "products_data.delcam.name",
 		"description_short": "products_data.delcam.description_short",
 		"description_long": "products_data.delcam.description_long",
@@ -22,6 +24,7 @@
 	{
 		"id": "soulgarden",
 		"icon": "soulgarden",
+		"version": "0.0.0",
 		"name": "products_data.soulgarden.name",
 		"description_short": "products_data.soulgarden.description_short",
 		"description_long": "products_data.soulgarden.description_long",

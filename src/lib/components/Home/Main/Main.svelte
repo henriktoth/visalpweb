@@ -15,7 +15,7 @@
 				<h1
 					class="nunito-black text-[35px] leading-tight [@media(min-width:450px)]:text-[45px] [@media(min-width:640px)]:text-[60px]"
 				>
-					{$_('main_page.main.msg')}
+					{$_('home.main.msg')}
 					<span class="inline-block" use:animateTyping={['PRODUCTIVE.', 'EFFECTIVE.', 'MINDFUL.']}
 					></span>
 				</h1>
@@ -23,14 +23,14 @@
 				<h1
 					class="nunito-black text-[35px] leading-tight [@media(min-width:450px)]:text-[45px] [@media(min-width:640px)]:text-[60px]"
 				>
-					{$_('main_page.main.msg')}
+					{$_('home.main.msg')}
 					<span use:animateTyping={['PRODUKTÍV!', 'HATÉKONY!', 'TUDATOS!']}></span>
 				</h1>
 			{/if}
 			<p
 				class="[@media(min-width:450px)]:text-md max-w-150 text-sm [@media(min-width:640px)]:text-xl"
 			>
-				{$_('main_page.main.submsg')}
+				{$_('home.main.submsg')}
 			</p>
 		</div>
 		<div
@@ -41,7 +41,7 @@
 					class="w-full rounded-full bg-white px-6 py-4 text-base font-bold hover:translate-y-1 hover:cursor-pointer hover:transition-transform [@media(min-width:400px)]:w-auto [@media(min-width:400px)]:px-12 [@media(min-width:640px)]:px-20 [@media(min-width:640px)]:text-lg"
 					style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 				>
-					{$_('main_page.main.download_btn')}
+					{$_('home.main.download_btn')}
 				</button>
 			</a>
 			<a href={`${base}/contact`}>

@@ -54,8 +54,8 @@
 	style="box-shadow: 0 6px 10px -5px rgba(0,0,0,0.2);"
 >
 	<div class="text-center">
-		<h2 class="nunito-extralight mt-10 text-3xl">{$_('main_page.blogs.title')}</h2>
-		<p>{$_('main_page.blogs.subtitle')}</p>
+		<h2 class="nunito-extralight mt-10 text-3xl">{$_('home.blogs.title')}</h2>
+		<p>{$_('home.blogs.subtitle')}</p>
 	</div>
 
 	{#if hasBlogs}
@@ -63,14 +63,14 @@
 		<div class="flex w-full flex-col gap-10 lg:hidden">
 			<div class="flex justify-center">
 				<BlogCard
-					title={$_('main_page.blogs.blog1.title')}
-					description={$_('main_page.blogs.blog1.description')}
+					title={$_('home.blogs.blog1.title')}
+					description={$_('home.blogs.blog1.description')}
 				/>
 			</div>
 			<div class="flex justify-center">
 				<BlogCard
-					title={$_('main_page.blogs.blog2.title')}
-					description={$_('main_page.blogs.blog2.description')}
+					title={$_('home.blogs.blog2.title')}
+					description={$_('home.blogs.blog2.description')}
 				/>
 			</div>
 		</div>
@@ -87,14 +87,14 @@
 					<div class="flex min-w-full gap-10 px-2">
 						<div class="flex flex-1 justify-center">
 							<BlogCard
-								title={$_('main_page.blogs.blog1.title')}
-								description={$_('main_page.blogs.blog1.description')}
+								title={$_('home.blogs.blog1.title')}
+								description={$_('home.blogs.blog1.description')}
 							/>
 						</div>
 						<div class="flex flex-1 justify-center">
 							<BlogCard
-								title={$_('main_page.blogs.blog2.title')}
-								description={$_('main_page.blogs.blog2.description')}
+								title={$_('home.blogs.blog2.title')}
+								description={$_('home.blogs.blog2.description')}
 							/>
 						</div>
 					</div>
@@ -103,14 +103,14 @@
 					<div class="flex min-w-full gap-10 px-2">
 						<div class="flex flex-1 justify-center">
 							<BlogCard
-								title={$_('main_page.blogs.blog3.title')}
-								description={$_('main_page.blogs.blog3.description')}
+								title={$_('home.blogs.blog3.title')}
+								description={$_('home.blogs.blog3.description')}
 							/>
 						</div>
 						<div class="flex flex-1 justify-center">
 							<BlogCard
-								title={$_('main_page.blogs.blog4.title')}
-								description={$_('main_page.blogs.blog4.description')}
+								title={$_('home.blogs.blog4.title')}
+								description={$_('home.blogs.blog4.description')}
 							/>
 						</div>
 					</div>
@@ -168,7 +168,7 @@
 			<button
 				class="m-5 w-auto rounded-full bg-neutral-200 px-12 py-2 text-neutral-600 hover:cursor-pointer hover:bg-neutral-300"
 			>
-				{$_('main_page.blogs.read_more')}
+				{$_('home.blogs.read_more')}
 			</button>
 		</a>
 	{:else}
@@ -182,7 +182,7 @@
 				></svg
 			>
 			<p class="text-center text-2xl font-bold text-neutral-500">
-				{$_('main_page.blogs.no_blog_msg')}
+				{$_('home.blogs.no_blog_msg')}
 			</p>
 		</div>
 	{/if}

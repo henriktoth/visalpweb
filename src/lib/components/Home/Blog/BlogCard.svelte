@@ -14,6 +14,6 @@
 		disabled
 		class="mt-auto w-full rounded-full border border-neutral-400 px-12 py-2 text-neutral-400"
 	>
-		{$_('main_page.products.coming_soon')}
+		{$_('home.products.coming_soon')}
 	</button>
 </div>

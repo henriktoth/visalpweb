@@ -43,27 +43,27 @@
       </div>
 
       <h1 class="mb-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-        {@html $_('fileorganizer_page.hero_title')}
+        {@html $_('apps.fileorganizer.landing.hero_title')}
       </h1>
       <p class="mx-auto max-w-2xl text-xl text-gray-500 mb-10">
-        {$_('fileorganizer_page.hero_subtitle')}
+        {$_('apps.fileorganizer.landing.hero_subtitle')}
       </p>
       
       <div class="flex flex-col items-center justify-center gap-6">
         <div class="flex items-center gap-4 text-sm text-gray-500 bg-white px-4 py-2 rounded-full shadow-sm border border-gray-100">
             <span class="font-medium text-gray-900">v{product.version}</span>
             <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
-            <span>{$_('fileorganizer_page.released')} {formatDate(product.release_date)}</span>
+            <span>{$_('apps.fileorganizer.landing.released')} {formatDate(product.release_date)}</span>
         </div>
 
         <div class="flex flex-wrap justify-center gap-4">
             <!-- Mac Button -->
             <a href={downloadLinks.Mac} class="group flex items-center gap-3 bg-gray-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-gray-800 transition-all shadow-lg hover:shadow-gray-200 hover:-translate-y-0.5">
               <img src={mac} alt="Mac" class="w-6 h-6 brightness-0 invert" />
-              <span>{$_('fileorganizer_page.download_mac')}</span>
+              <span>{$_('apps.fileorganizer.landing.download_mac')}</span>
             </a>
         </div>
-        <p class="text-sm text-gray-400">{$_('fileorganizer_page.eula_text')} <a href="{base}/apps/fileorganizer/eula" class="underline hover:text-gray-600">{$_('fileorganizer_page.eula_link')}</a>.</p>
+        <p class="text-sm text-gray-400">{$_('apps.fileorganizer.landing.eula_text')} <a href="{base}/apps/fileorganizer/eula" class="underline hover:text-gray-600">{$_('apps.fileorganizer.landing.eula_link')}</a>.</p>
       </div>
     </div>
 
@@ -75,9 +75,9 @@
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                 </svg>
             </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">{$_('fileorganizer_page.feature_simple_title')}</h3>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{$_('apps.fileorganizer.landing.feature_simple_title')}</h3>
             <p class="text-lg text-gray-600 leading-relaxed">
-                {$_('fileorganizer_page.feature_simple_desc')}
+                {$_('apps.fileorganizer.landing.feature_simple_desc')}
             </p>
         </div>
         <div class="bg-white p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
@@ -86,12 +86,13 @@
                   <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
                 </svg>
             </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">{$_('fileorganizer_page.feature_control_title')}</h3>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{$_('apps.fileorganizer.landing.feature_control_title')}</h3>
             <p class="text-lg text-gray-600 leading-relaxed">
-                {$_('fileorganizer_page.feature_control_desc')}
+                {$_('apps.fileorganizer.landing.feature_control_desc')}
             </p>
         </div>
     </div>
-
+    <div class="flex items-center justify-center text-gray-400 text-sm gap-2">
+    </div>
   </div>
 </div>

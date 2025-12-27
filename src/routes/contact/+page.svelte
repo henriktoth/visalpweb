@@ -40,36 +40,36 @@
 		class="grid w-full max-w-5xl grid-cols-1 items-center rounded-3xl bg-white p-8 shadow-lg md:grid-cols-2 dark:bg-gray-800"
 	>
 		<div>
-			<h1 class="mb-4 text-3xl font-bold md:text-4xl">{$_('contact_page.title')}</h1>
-			<p class="text-m mb-6 text-gray-600 dark:text-gray-300">{$_('contact_page.subtitle')}</p>
+			<h1 class="mb-4 text-3xl font-bold md:text-4xl">{$_('contact.title')}</h1>
+			<p class="text-m mb-6 text-gray-600 dark:text-gray-300">{$_('contact.subtitle')}</p>
 
 			<form on:submit={handleSubmit} class="space-y-4" novalidate>
 				<div>
-					<label for="name" class="mb-1 block text-sm font-medium">{$_('contact_page.name')}</label>
+					<label for="name" class="mb-1 block text-sm font-medium">{$_('contact.name')}</label>
 					<input
 						id="name"
 						name="name"
 						required
 						class="w-full rounded-3xl border border-gray-200 bg-white px-5 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-700"
-						placeholder={$_('contact_page.name')}
+						placeholder={$_('contact.name')}
 					/>
 				</div>
 
 				<div>
 					<label for="subject" class="mb-1 block text-sm font-medium"
-						>{$_('contact_page.subject')}</label
+						>{$_('contact.subject')}</label
 					>
 					<input
 						id="subject"
 						name="subject"
 						class="w-full rounded-3xl border border-gray-200 bg-white px-5 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-700"
-						placeholder={$_('contact_page.subject')}
+						placeholder={$_('contact.subject')}
 					/>
 				</div>
 
 				<div>
 					<label for="message" class="mb-1 block text-sm font-medium"
-						>{$_('contact_page.message')}</label
+						>{$_('contact.message')}</label
 					>
 					<textarea
 						id="message"
@@ -78,7 +78,7 @@
 						style="resize: none;"
 						rows="6"
 						class="w-full rounded-3xl border border-gray-200 bg-white px-5 py-3 focus:ring-2 focus:ring-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-700"
-						placeholder={$_('contact_page.message_placeholder')}
+						placeholder={$_('contact.message_placeholder')}
 					></textarea>
 				</div>
 
@@ -86,12 +86,12 @@
 					<button
 						type="submit"
 						class="rounded-3xl bg-blue-400 px-4 py-2 text-white transition hover:cursor-pointer hover:bg-blue-500"
-						>{$_('contact_page.send_btn')}</button
+						>{$_('contact.send_btn')}</button
 					>
 					<button
 						type="reset"
 						class="rounded-3xl border border-neutral-400 px-4 py-2 text-neutral-500 transition hover:cursor-pointer hover:bg-gray-100"
-						>{$_('contact_page.delete_btn')}</button
+						>{$_('contact.delete_btn')}</button
 					>
 				</div>
 			</form>

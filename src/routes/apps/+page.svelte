@@ -83,33 +83,33 @@
 					type="text"
 					bind:value={searchQuery}
 					class="block w-full rounded-full border border-gray-300 bg-white py-2 pl-10 pr-3 leading-5 placeholder-gray-500 transition duration-150 ease-in-out focus:border-blue-300 focus:placeholder-gray-400 focus:outline-none focus:ring focus:ring-blue-200 sm:text-sm"
-					placeholder={$_('apps_page.search_placeholder')}
+					placeholder={$_('apps.index.search_placeholder')}
 				/>
 			</div>
 
 			<!-- Sort & Filter (Visual only for now) -->
 			<div class="flex flex-col items-center gap-6 md:flex-row">
 				<div class="flex items-center gap-2">
-					<span class="text-gray-500">{$_('apps_page.sort_by')}</span>
+					<span class="text-gray-500">{$_('apps.index.sort_by')}</span>
 					<select
 						bind:value={sortOption}
 						class="cursor-pointer rounded-full border border-gray-300 bg-white pl-6 pr-12 py-3 font-medium text-gray-700 focus:outline-none"
 					>
-						<option value="name-asc">{$_('apps_page.sort_options.name_asc')}</option>
-						<option value="name-desc">{$_('apps_page.sort_options.name_desc')}</option>
-						<option value="date-asc">{$_('apps_page.sort_options.date_asc')}</option>
-						<option value="date-desc">{$_('apps_page.sort_options.date_desc')}</option>
+						<option value="name-asc">{$_('apps.index.sort_options.name_asc')}</option>
+						<option value="name-desc">{$_('apps.index.sort_options.name_desc')}</option>
+						<option value="date-asc">{$_('apps.index.sort_options.date_asc')}</option>
+						<option value="date-desc">{$_('apps.index.sort_options.date_desc')}</option>
 					</select>
 				</div>
 				<button
 					class="flex items-center gap-2 font-medium text-gray-700 hover:cursor-pointer hover:text-gray-900"
 				>
-					<span class="text-gray-500">{$_('apps_page.filter_by_platform')}</span>
+					<span class="text-gray-500">{$_('apps.index.filter_by_platform')}</span>
 					<select
 						bind:value={selectedPlatform}
 						class="cursor-pointer rounded-full border border-gray-300 bg-white pl-6 pr-12 py-3 font-medium text-gray-700 focus:outline-none"
 					>
-						<option value="all">{$_('apps_page.all_platforms')}</option>
+						<option value="all">{$_('apps.index.all_platforms')}</option>
 						{#each uniquePlatforms as platform}
 							<option value={platform}>{platform}</option>
 						{/each}

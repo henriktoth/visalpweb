@@ -32,7 +32,7 @@
 	<p>{description}</p>
 	{#if showPlatforms}
 		<div class="mt-auto flex w-fit items-center gap-3 rounded-full border border-gray-200 px-4 py-2">
-			<p class="text-xs text-gray-500">{$_('main_page.products.available_on')}</p>
+			<p class="text-xs text-gray-500">{$_('home.products.available_on')}</p>
 			{#each platforms as platform}
 				{#if platformIcons[platform]}
 					<img src={platformIcons[platform]} alt={platform} class="h-5 w-5" />
@@ -45,14 +45,14 @@
 			href={`/apps/${id}`}
 			class="w-full inline-block text-center rounded-full border border-neutral-400 px-12 py-2 text-neutral-700 hover:bg-neutral-100"
 		>
-			{$_('main_page.products.try_now')}
+			{$_('home.products.try_now')}
 		</a>
 	{:else}
 		<button
 			disabled
 			class="w-full rounded-full border border-neutral-400 px-12 py-2 text-neutral-400"
 		>
-			{$_('main_page.products.coming_soon')}
+			{$_('home.products.coming_soon')}
 		</button>
 	{/if}
 </div>

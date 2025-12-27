@@ -21,6 +21,6 @@
 			/></g
 		></svg
 	>
-	<h1 class="text-center text-4xl font-bold">{$_('blog_page.title')}</h1>
-	<p>{$_('blog_page.subtitle')}</p>
+	<h1 class="text-center text-4xl font-bold">{$_('blog.title')}</h1>
+	<p>{$_('blog.subtitle')}</p>
 </div>
